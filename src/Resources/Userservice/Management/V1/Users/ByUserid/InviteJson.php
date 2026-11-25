@@ -42,5 +42,4 @@ final class InviteJson extends \MarketoSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), path: ['userid' => $userid]);
         return $result;
     }
-
 }

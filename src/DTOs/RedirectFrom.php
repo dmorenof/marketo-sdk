@@ -10,9 +10,9 @@ namespace MarketoSDK\DTOs;
 final class RedirectFrom extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-    'value',
-];
+        'type',
+        'value',
+    ];
 
     /**
      * Type of redirect landing page

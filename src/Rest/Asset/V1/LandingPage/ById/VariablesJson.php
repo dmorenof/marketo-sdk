@@ -14,5 +14,4 @@ final class VariablesJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\Asset\V1\LandingPage\ById\VariablesJson::class)->get($id, $params);
     }
-
 }

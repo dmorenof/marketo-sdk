@@ -7,15 +7,15 @@ namespace MarketoSDK\GetParams\Rest\Asset\V1\Channel;
 final class ByNameJson extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'Name',
-];
+        'Name',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'Name' => 'Name',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'Name' => 'Name',
+        ],
+        'header' => [],
+    ];
 
     public string $Name;
 }

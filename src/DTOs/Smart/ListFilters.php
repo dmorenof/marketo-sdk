@@ -10,21 +10,21 @@ namespace MarketoSDK\DTOs\Smart;
 final class ListFilters extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'id',
-    'name',
-    'operator',
-    'ruleType',
-    'ruleTypeId',
-];
+        'id',
+        'name',
+        'operator',
+        'ruleType',
+        'ruleTypeId',
+    ];
 
     protected const array VALIDATION = [
-    'id' => [
-        'format' => 'int32',
-    ],
-    'ruleTypeId' => [
-        'format' => 'int32',
-    ],
-];
+        'id' => [
+            'format' => 'int32',
+        ],
+        'ruleTypeId' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * List of smart list conditions

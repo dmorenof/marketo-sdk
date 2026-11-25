@@ -10,8 +10,8 @@ namespace MarketoSDK\DTOs\Lead;
 final class FormFields extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'email',
-];
+        'email',
+    ];
 
     /**
      * Email address used as primary key during lead upsert

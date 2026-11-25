@@ -10,10 +10,10 @@ namespace MarketoSDK\DTOs\Email;
 class TemplateContentDTO extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'version' => [
-        'format' => 'int32',
-    ],
-];
+        'version' => [
+            'format' => 'int32',
+        ],
+    ];
 
     public \MarketoSDK\DTOs\AppDataDTO $appData;
     public string $appType;

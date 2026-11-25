@@ -27,5 +27,4 @@ final class CompaniesJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\V1\CompaniesJson::class)->post($payload);
     }
-
 }

@@ -7,9 +7,9 @@ namespace MarketoSDK\DTOs;
 final class CloneProgramRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'folder',
-    'name',
-];
+        'folder',
+        'name',
+    ];
 
     public string $description;
     /**

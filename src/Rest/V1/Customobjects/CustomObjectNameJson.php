@@ -27,5 +27,4 @@ final class CustomObjectNameJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\V1\Customobjects\CustomObjectNameJson::class)->post($customObjectName, $payload);
     }
-
 }

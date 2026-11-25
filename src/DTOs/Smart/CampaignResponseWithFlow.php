@@ -7,45 +7,45 @@ namespace MarketoSDK\DTOs\Smart;
 final class CampaignResponseWithFlow extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'createdAt',
-    'description',
-    'flowId',
-    'folder',
-    'id',
-    'isActive',
-    'isCommunicationLimitEnabled',
-    'isRequestable',
-    'isSystem',
-    'maxMembers',
-    'name',
-    'qualificationRuleInterval',
-    'qualificationRuleType',
-    'qualificationRuleUnit',
-    'recurrence',
-    'smartListId',
-    'status',
-    'type',
-    'updatedAt',
-    'workspace',
-];
+        'createdAt',
+        'description',
+        'flowId',
+        'folder',
+        'id',
+        'isActive',
+        'isCommunicationLimitEnabled',
+        'isRequestable',
+        'isSystem',
+        'maxMembers',
+        'name',
+        'qualificationRuleInterval',
+        'qualificationRuleType',
+        'qualificationRuleUnit',
+        'recurrence',
+        'smartListId',
+        'status',
+        'type',
+        'updatedAt',
+        'workspace',
+    ];
 
     protected const array VALIDATION = [
-    'flowId' => [
-        'format' => 'int32',
-    ],
-    'id' => [
-        'format' => 'int32',
-    ],
-    'maxMembers' => [
-        'format' => 'int32',
-    ],
-    'parentProgramId' => [
-        'format' => 'int32',
-    ],
-    'smartListId' => [
-        'format' => 'int32',
-    ],
-];
+        'flowId' => [
+            'format' => 'int32',
+        ],
+        'id' => [
+            'format' => 'int32',
+        ],
+        'maxMembers' => [
+            'format' => 'int32',
+        ],
+        'parentProgramId' => [
+            'format' => 'int32',
+        ],
+        'smartListId' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * URL to asset in Marketo Engage

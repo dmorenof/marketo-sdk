@@ -19,5 +19,4 @@ final class TriggerJson extends \MarketoSDK\MarketoEngageRESTAPISDK
         }
         return self::client()->resource(\MarketoSDK\Resources\Rest\V1\Campaigns\ByCampaignId\TriggerJson::class)->post($campaignId, $payload);
     }
-
 }

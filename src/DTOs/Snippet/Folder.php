@@ -10,16 +10,16 @@ namespace MarketoSDK\DTOs\Snippet;
 final class Folder extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'folderName',
-    'type',
-    'value',
-];
+        'folderName',
+        'type',
+        'value',
+    ];
 
     protected const array VALIDATION = [
-    'value' => [
-        'format' => 'int32',
-    ],
-];
+        'value' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Name of folder

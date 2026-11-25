@@ -7,18 +7,18 @@ namespace MarketoSDK\DTOs\FlowStepChoice;
 final class Attribute extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'id',
-    'name',
-];
+        'id',
+        'name',
+    ];
 
     protected const array VALIDATION = [
-    'activityTypeAttribId' => [
-        'format' => 'int32',
-    ],
-    'id' => [
-        'format' => 'int32',
-    ],
-];
+        'activityTypeAttribId' => [
+            'format' => 'int32',
+        ],
+        'id' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Id of the activity type attribute definition

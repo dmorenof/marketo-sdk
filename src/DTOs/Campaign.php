@@ -10,21 +10,21 @@ namespace MarketoSDK\DTOs;
 final class Campaign extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'createdAt',
-    'id',
-    'name',
-    'type',
-    'updatedAt',
-];
+        'createdAt',
+        'id',
+        'name',
+        'type',
+        'updatedAt',
+    ];
 
     protected const array VALIDATION = [
-    'id' => [
-        'format' => 'int32',
-    ],
-    'programId' => [
-        'format' => 'int32',
-    ],
-];
+        'id' => [
+            'format' => 'int32',
+        ],
+        'programId' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Whether the campaign is active. Only applicable to trigger campaigns

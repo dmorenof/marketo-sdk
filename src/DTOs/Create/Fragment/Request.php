@@ -12,10 +12,10 @@ namespace MarketoSDK\DTOs\Create\Fragment;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'appData',
-    'name',
-    'settings',
-];
+        'appData',
+        'name',
+        'settings',
+    ];
 
     public \MarketoSDK\DTOs\AppDataDTO $appData;
     public \MarketoSDK\DTOs\DataDTO $data;

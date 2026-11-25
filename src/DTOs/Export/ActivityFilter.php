@@ -7,8 +7,8 @@ namespace MarketoSDK\DTOs\Export;
 final class ActivityFilter extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'createdAt',
-];
+        'createdAt',
+    ];
 
     /**
      * List of activity type ids to filter on

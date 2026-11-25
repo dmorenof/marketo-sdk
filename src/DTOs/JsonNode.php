@@ -7,19 +7,19 @@ namespace MarketoSDK\DTOs;
 final class JsonNode extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array PROPERTY_MAP = [
-    'array' => 'array_',
-    'float' => 'float_',
-    'int' => 'int_',
-    'null' => 'null_',
-    'object' => 'object_',
-];
+        'array' => 'array_',
+        'float' => 'float_',
+        'int' => 'int_',
+        'null' => 'null_',
+        'object' => 'object_',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'array_' => 'array',
-    'float_' => 'float',
-    'int_' => 'int',
-    'null_' => 'null',
-    'object_' => 'object',
-];
+        'array_' => 'array',
+        'float_' => 'float',
+        'int_' => 'int',
+        'null_' => 'null',
+        'object_' => 'object',
+    ];
 
     public bool $array_;
     public bool $bigDecimal;

@@ -7,20 +7,20 @@ namespace MarketoSDK\DTOs\Create\Email;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'folder',
-    'fromEmail',
-    'fromName',
-    'name',
-    'replyEmail',
-    'subject',
-    'template',
-];
+        'folder',
+        'fromEmail',
+        'fromName',
+        'name',
+        'replyEmail',
+        'subject',
+        'template',
+    ];
 
     protected const array VALIDATION = [
-    'template' => [
-        'format' => 'int32',
-    ],
-];
+        'template' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Setting to automatically copy HTML version to Text version

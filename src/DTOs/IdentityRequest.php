@@ -7,10 +7,10 @@ namespace MarketoSDK\DTOs;
 final class IdentityRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'client_id',
-    'client_secret',
-    'grant_type',
-];
+        'client_id',
+        'client_secret',
+        'grant_type',
+    ];
 
     /**
      * Client ID from Admin > Integration > Launchpoint menu

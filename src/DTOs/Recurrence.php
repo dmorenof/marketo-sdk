@@ -7,28 +7,28 @@ namespace MarketoSDK\DTOs;
 final class Recurrence extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'dayOfMonth',
-    'dayOfWeek',
-    'endAt',
-    'interval',
-    'intervalType',
-    'startAt',
-    'weekOfMonth',
-    'weekdayMask',
-    'weekdayOnly',
-];
+        'dayOfMonth',
+        'dayOfWeek',
+        'endAt',
+        'interval',
+        'intervalType',
+        'startAt',
+        'weekOfMonth',
+        'weekdayMask',
+        'weekdayOnly',
+    ];
 
     protected const array VALIDATION = [
-    'dayOfMonth' => [
-        'format' => 'int32',
-    ],
-    'interval' => [
-        'format' => 'int32',
-    ],
-    'weekOfMonth' => [
-        'format' => 'int32',
-    ],
-];
+        'dayOfMonth' => [
+            'format' => 'int32',
+        ],
+        'interval' => [
+            'format' => 'int32',
+        ],
+        'weekOfMonth' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Day of the month to recur. Permissible range 1-31. May only be set if intervalType is 'Monthly' and dayOfWeek and weekOfMonth are unset.

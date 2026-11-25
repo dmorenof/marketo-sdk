@@ -16,5 +16,4 @@ final class ContentIdJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\Asset\V1\LandingPage\ById\Content\ContentIdJson::class)->post($identifier, $payload);
     }
-
 }

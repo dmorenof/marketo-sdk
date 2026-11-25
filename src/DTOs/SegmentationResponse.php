@@ -7,9 +7,9 @@ namespace MarketoSDK\DTOs;
 final class SegmentationResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'folder',
-    'status',
-];
+        'folder',
+        'status',
+    ];
 
     /**
      * Datetime the asset was created

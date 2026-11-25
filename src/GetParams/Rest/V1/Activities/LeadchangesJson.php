@@ -7,41 +7,41 @@ namespace MarketoSDK\GetParams\Rest\V1\Activities;
 final class LeadchangesJson extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'fields',
-    'nextPageToken',
-];
+        'fields',
+        'nextPageToken',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'batchSize' => 'batchSize',
-        'fields' => 'fields',
-        'leadIds' => 'leadIds',
-        'listId' => 'listId',
-        'nextPageToken' => 'nextPageToken',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'batchSize' => 'batchSize',
+            'fields' => 'fields',
+            'leadIds' => 'leadIds',
+            'listId' => 'listId',
+            'nextPageToken' => 'nextPageToken',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'batchSize' => [
-        'format' => 'int32',
-    ],
-    'fields' => [
-        'items' => [
-            'type' => 'string',
-            'rules' => [],
+        'batchSize' => [
+            'format' => 'int32',
         ],
-    ],
-    'leadIds' => [
-        'items' => [
-            'type' => 'int',
-            'rules' => [],
+        'fields' => [
+            'items' => [
+                'type' => 'string',
+                'rules' => [],
+            ],
         ],
-    ],
-    'listId' => [
-        'format' => 'int32',
-    ],
-];
+        'leadIds' => [
+            'items' => [
+                'type' => 'int',
+                'rules' => [],
+            ],
+        ],
+        'listId' => [
+            'format' => 'int32',
+        ],
+    ];
 
     public ?int $batchSize {
         set {

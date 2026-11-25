@@ -10,25 +10,25 @@ namespace MarketoSDK\DTOs\Import\Lead;
 final class Response extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'batchId',
-    'numOfLeadsProcessed',
-    'status',
-];
+        'batchId',
+        'numOfLeadsProcessed',
+        'status',
+    ];
 
     protected const array VALIDATION = [
-    'batchId' => [
-        'format' => 'int32',
-    ],
-    'numOfLeadsProcessed' => [
-        'format' => 'int32',
-    ],
-    'numOfRowsFailed' => [
-        'format' => 'int32',
-    ],
-    'numOfRowsWithWarning' => [
-        'format' => 'int32',
-    ],
-];
+        'batchId' => [
+            'format' => 'int32',
+        ],
+        'numOfLeadsProcessed' => [
+            'format' => 'int32',
+        ],
+        'numOfRowsFailed' => [
+            'format' => 'int32',
+        ],
+        'numOfRowsWithWarning' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Unique integer id of the import batch

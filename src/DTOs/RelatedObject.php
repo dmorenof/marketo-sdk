@@ -7,9 +7,9 @@ namespace MarketoSDK\DTOs;
 final class RelatedObject extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'field',
-    'name',
-];
+        'field',
+        'name',
+    ];
 
     /**
      * Name of link field (within link object)

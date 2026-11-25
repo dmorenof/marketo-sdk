@@ -7,8 +7,8 @@ namespace MarketoSDK\DTOs\Update\EmailFullContent;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'content',
-];
+        'content',
+    ];
 
     /**
      * Multipart file. File containing HTML document to update with. File cannot include JavaScript or script tags.

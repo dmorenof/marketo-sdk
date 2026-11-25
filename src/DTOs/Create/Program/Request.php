@@ -7,11 +7,11 @@ namespace MarketoSDK\DTOs\Create\Program;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'channel',
-    'folder',
-    'name',
-    'type',
-];
+        'channel',
+        'folder',
+        'name',
+        'type',
+    ];
 
     /**
      * Channel of the program

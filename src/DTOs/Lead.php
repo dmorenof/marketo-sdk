@@ -10,10 +10,10 @@ namespace MarketoSDK\DTOs;
 final class Lead extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'id' => [
-        'format' => 'int32',
-    ],
-];
+        'id' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Unique integer id of a lead record

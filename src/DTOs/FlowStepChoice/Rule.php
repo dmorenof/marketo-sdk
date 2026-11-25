@@ -10,10 +10,10 @@ namespace MarketoSDK\DTOs\FlowStepChoice;
 final class Rule extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'ruleTypeId' => [
-        'format' => 'int32',
-    ],
-];
+        'ruleTypeId' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Name of the field tested by the condition

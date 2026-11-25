@@ -7,13 +7,13 @@ namespace MarketoSDK\DTOs\LandingPage\DynamicContent;
 final class Response extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'id' => [
-        'format' => 'int32',
-    ],
-    'segmentation' => [
-        'format' => 'int32',
-    ],
-];
+        'id' => [
+            'format' => 'int32',
+        ],
+        'segmentation' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * List of variations in the section

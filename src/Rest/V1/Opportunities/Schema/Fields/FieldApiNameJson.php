@@ -16,5 +16,4 @@ final class FieldApiNameJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\V1\Opportunities\Schema\Fields\FieldApiNameJson::class)->get($fieldApiName);
     }
-
 }

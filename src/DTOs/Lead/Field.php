@@ -10,22 +10,22 @@ namespace MarketoSDK\DTOs\Lead;
 final class Field extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'dataType',
-    'description',
-    'displayName',
-    'isApiCreated',
-    'isCustom',
-    'isHidden',
-    'isHtmlEncodingInEmail',
-    'isSensitive',
-    'name',
-];
+        'dataType',
+        'description',
+        'displayName',
+        'isApiCreated',
+        'isCustom',
+        'isHidden',
+        'isHtmlEncodingInEmail',
+        'isSensitive',
+        'name',
+    ];
 
     protected const array VALIDATION = [
-    'length' => [
-        'format' => 'int32',
-    ],
-];
+        'length' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Datatype of the field

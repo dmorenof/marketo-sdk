@@ -7,22 +7,22 @@ namespace MarketoSDK\DTOs\Update\FormField;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'blankFields' => [
-        'format' => 'int32',
-    ],
-    'fieldWidth' => [
-        'format' => 'int32',
-    ],
-    'labelWidth' => [
-        'format' => 'int32',
-    ],
-    'maxLength' => [
-        'format' => 'int32',
-    ],
-    'visibleLines' => [
-        'format' => 'int32',
-    ],
-];
+        'blankFields' => [
+            'format' => 'int32',
+        ],
+        'fieldWidth' => [
+            'format' => 'int32',
+        ],
+        'labelWidth' => [
+            'format' => 'int32',
+        ],
+        'maxLength' => [
+            'format' => 'int32',
+        ],
+        'visibleLines' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Number of blank fields to show when progressive profiling is enabled

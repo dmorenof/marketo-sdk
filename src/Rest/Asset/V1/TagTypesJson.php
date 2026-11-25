@@ -16,5 +16,4 @@ final class TagTypesJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\Asset\V1\TagTypesJson::class)->get($params);
     }
-
 }

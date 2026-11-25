@@ -16,5 +16,4 @@ final class DiscardDraftJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\V1\Activities\External\Type\ByApiName\DiscardDraftJson::class)->post($apiName);
     }
-
 }

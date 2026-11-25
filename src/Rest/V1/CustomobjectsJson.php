@@ -16,5 +16,4 @@ final class CustomobjectsJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\V1\CustomobjectsJson::class)->get($params);
     }
-
 }

@@ -16,5 +16,4 @@ final class ExportJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Bulk\V1\Leads\ExportJson::class)->get($params);
     }
-
 }

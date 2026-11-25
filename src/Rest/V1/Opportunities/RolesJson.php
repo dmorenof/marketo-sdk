@@ -27,5 +27,4 @@ final class RolesJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\V1\Opportunities\RolesJson::class)->post($payload);
     }
-
 }

@@ -37,5 +37,4 @@ final class IsmemberJson extends \MarketoSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), path: ['listId' => $listId], parameters: $params);
         return $result;
     }
-
 }

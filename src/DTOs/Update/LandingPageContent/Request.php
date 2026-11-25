@@ -7,14 +7,14 @@ namespace MarketoSDK\DTOs\Update\LandingPageContent;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'index' => [
-        'format' => 'int32',
-    ],
-];
+        'index' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * background-color property of the HTML section

@@ -16,5 +16,4 @@ final class DiscardDraftJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\Asset\V1\LandingPage\ById\DiscardDraftJson::class)->post($id);
     }
-
 }

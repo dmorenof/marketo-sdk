@@ -7,18 +7,18 @@ namespace MarketoSDK\DTOs\Smart;
 final class CampaignUsedByAsset extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'id',
-    'name',
-];
+        'id',
+        'name',
+    ];
 
     protected const array VALIDATION = [
-    'accessZoneId' => [
-        'format' => 'int32',
-    ],
-    'programId' => [
-        'format' => 'int32',
-    ],
-];
+        'accessZoneId' => [
+            'format' => 'int32',
+        ],
+        'programId' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Id of the workspace containing the asset

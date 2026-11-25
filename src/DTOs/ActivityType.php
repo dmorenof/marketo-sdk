@@ -7,17 +7,17 @@ namespace MarketoSDK\DTOs;
 final class ActivityType extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'attributes',
-    'id',
-    'name',
-    'primaryAttribute',
-];
+        'attributes',
+        'id',
+        'name',
+        'primaryAttribute',
+    ];
 
     protected const array VALIDATION = [
-    'id' => [
-        'format' => 'int32',
-    ],
-];
+        'id' => [
+            'format' => 'int32',
+        ],
+    ];
 
     public string $apiName;
     /**

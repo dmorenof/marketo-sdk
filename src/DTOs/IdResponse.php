@@ -7,14 +7,14 @@ namespace MarketoSDK\DTOs;
 final class IdResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'id',
-];
+        'id',
+    ];
 
     protected const array VALIDATION = [
-    'id' => [
-        'format' => 'int32',
-    ],
-];
+        'id' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Id of the asset

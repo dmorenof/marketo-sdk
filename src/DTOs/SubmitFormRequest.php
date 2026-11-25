@@ -7,18 +7,18 @@ namespace MarketoSDK\DTOs;
 final class SubmitFormRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'formId',
-    'input',
-];
+        'formId',
+        'input',
+    ];
 
     protected const array VALIDATION = [
-    'formId' => [
-        'format' => 'int32',
-    ],
-    'programId' => [
-        'format' => 'int32',
-    ],
-];
+        'formId' => [
+            'format' => 'int32',
+        ],
+        'programId' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Id of the form

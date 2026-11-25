@@ -7,8 +7,8 @@ namespace MarketoSDK\DTOs\Sync\SalesPerson;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'input',
-];
+        'input',
+    ];
 
     /**
      * Type of sync operation to perform

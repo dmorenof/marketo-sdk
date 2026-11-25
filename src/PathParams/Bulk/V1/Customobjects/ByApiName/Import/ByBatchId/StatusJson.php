@@ -7,23 +7,23 @@ namespace MarketoSDK\PathParams\Bulk\V1\Customobjects\ByApiName\Import\ByBatchId
 final class StatusJson extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'apiName',
-    'batchId',
-];
+        'apiName',
+        'batchId',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [
-        'apiName' => 'apiName',
-        'batchId' => 'batchId',
-    ],
-    'query' => [],
-    'header' => [],
-];
+        'path' => [
+            'apiName' => 'apiName',
+            'batchId' => 'batchId',
+        ],
+        'query' => [],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'batchId' => [
-        'format' => 'int32',
-    ],
-];
+        'batchId' => [
+            'format' => 'int32',
+        ],
+    ];
 
     public string $apiName;
     public int $batchId {

@@ -7,8 +7,8 @@ namespace MarketoSDK\Requests\Rest\Asset\V1\LandingPageTemplate\ById\ContentJson
 final class Post extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'content',
-];
+        'content',
+    ];
 
     /**
      * content

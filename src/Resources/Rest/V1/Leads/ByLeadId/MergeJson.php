@@ -26,5 +26,4 @@ final class MergeJson extends \MarketoSDK\Client
         $result = $this->executeArguments(self::operation(self::POST), path: ['leadId' => $leadId], parameters: $params);
         return $result;
     }
-
 }

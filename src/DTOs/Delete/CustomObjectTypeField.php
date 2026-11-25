@@ -7,8 +7,8 @@ namespace MarketoSDK\DTOs\Delete;
 final class CustomObjectTypeField extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'name',
-];
+        'name',
+    ];
 
     /**
      * API Name of custom object type field

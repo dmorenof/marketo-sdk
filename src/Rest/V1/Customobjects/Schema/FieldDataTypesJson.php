@@ -16,5 +16,4 @@ final class FieldDataTypesJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\V1\Customobjects\Schema\FieldDataTypesJson::class)->get();
     }
-
 }

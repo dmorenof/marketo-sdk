@@ -16,5 +16,4 @@ final class DescribeJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\V1\Namedaccounts\DescribeJson::class)->get();
     }
-
 }

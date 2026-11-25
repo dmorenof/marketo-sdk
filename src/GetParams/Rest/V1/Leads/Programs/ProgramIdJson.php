@@ -7,26 +7,26 @@ namespace MarketoSDK\GetParams\Rest\V1\Leads\Programs;
 final class ProgramIdJson extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'batchSize' => 'batchSize',
-        'fields' => 'fields',
-        'nextPageToken' => 'nextPageToken',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'batchSize' => 'batchSize',
+            'fields' => 'fields',
+            'nextPageToken' => 'nextPageToken',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'batchSize' => [
-        'format' => 'int32',
-    ],
-    'fields' => [
-        'items' => [
-            'type' => 'string',
-            'rules' => [],
+        'batchSize' => [
+            'format' => 'int32',
         ],
-    ],
-];
+        'fields' => [
+            'items' => [
+                'type' => 'string',
+                'rules' => [],
+            ],
+        ],
+    ];
 
     public ?int $batchSize {
         set {

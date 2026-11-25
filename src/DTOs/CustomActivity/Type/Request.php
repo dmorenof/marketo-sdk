@@ -7,12 +7,12 @@ namespace MarketoSDK\DTOs\CustomActivity\Type;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'apiName',
-    'filterName',
-    'name',
-    'primaryAttribute',
-    'triggerName',
-];
+        'apiName',
+        'filterName',
+        'name',
+        'primaryAttribute',
+        'triggerName',
+    ];
 
     public string $apiName;
     public string $description;

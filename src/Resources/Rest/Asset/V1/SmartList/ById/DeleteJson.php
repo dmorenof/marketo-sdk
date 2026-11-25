@@ -23,5 +23,4 @@ final class DeleteJson extends \MarketoSDK\Client
         $result = $this->executeArguments(self::operation(self::POST), path: ['id' => $id]);
         return $result;
     }
-
 }

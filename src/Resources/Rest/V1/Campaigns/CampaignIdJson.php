@@ -28,5 +28,4 @@ final class CampaignIdJson extends \MarketoSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), path: ['campaignId' => $campaignId]);
         return $result;
     }
-
 }

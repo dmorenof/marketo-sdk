@@ -7,21 +7,21 @@ namespace MarketoSDK\PostParams\Rest\Asset\V1\SmartCampaign\ById\Flow\ByStepId\C
 final class ReorderJson extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'newSeqNumZeroBased',
-];
+        'newSeqNumZeroBased',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'newSeqNumZeroBased' => 'newSeqNumZeroBased',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'newSeqNumZeroBased' => 'newSeqNumZeroBased',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'newSeqNumZeroBased' => [
-        'format' => 'int32',
-    ],
-];
+        'newSeqNumZeroBased' => [
+            'format' => 'int32',
+        ],
+    ];
 
     public int $newSeqNumZeroBased {
         set {

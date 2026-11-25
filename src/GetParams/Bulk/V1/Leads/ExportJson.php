@@ -7,27 +7,27 @@ namespace MarketoSDK\GetParams\Bulk\V1\Leads;
 final class ExportJson extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'batchSize' => 'batchSize',
-        'nextPageToken' => 'nextPageToken',
-        'status' => 'status',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'batchSize' => 'batchSize',
+            'nextPageToken' => 'nextPageToken',
+            'status' => 'status',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'batchSize' => [
-        'format' => 'int32',
-    ],
-    'status' => [
-        'jsonSchema' => '{"enum":["cancelled","completed","created","failed","processing","queued"]}',
-        'items' => [
-            'type' => 'string',
-            'rules' => [],
+        'batchSize' => [
+            'format' => 'int32',
         ],
-    ],
-];
+        'status' => [
+            'jsonSchema' => '{"enum":["cancelled","completed","created","failed","processing","queued"]}',
+            'items' => [
+                'type' => 'string',
+                'rules' => [],
+            ],
+        ],
+    ];
 
     public ?int $batchSize {
         set {

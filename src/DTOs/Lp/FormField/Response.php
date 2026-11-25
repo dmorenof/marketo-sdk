@@ -7,25 +7,25 @@ namespace MarketoSDK\DTOs\Lp\FormField;
 final class Response extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'blankFields' => [
-        'format' => 'int32',
-    ],
-    'columnNumber' => [
-        'format' => 'int32',
-    ],
-    'fieldWidth' => [
-        'format' => 'int32',
-    ],
-    'labelWidth' => [
-        'format' => 'int32',
-    ],
-    'maxLength' => [
-        'format' => 'int32',
-    ],
-    'rowNumber' => [
-        'format' => 'int32',
-    ],
-];
+        'blankFields' => [
+            'format' => 'int32',
+        ],
+        'columnNumber' => [
+            'format' => 'int32',
+        ],
+        'fieldWidth' => [
+            'format' => 'int32',
+        ],
+        'labelWidth' => [
+            'format' => 'int32',
+        ],
+        'maxLength' => [
+            'format' => 'int32',
+        ],
+        'rowNumber' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Format: int32

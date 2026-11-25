@@ -7,9 +7,9 @@ namespace MarketoSDK\DTOs\Form\FieldVisibility;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'ruleType',
-    'rules',
-];
+        'ruleType',
+        'rules',
+    ];
 
     /**
      * Type of rule to apply

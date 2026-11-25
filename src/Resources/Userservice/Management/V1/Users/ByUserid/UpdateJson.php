@@ -61,5 +61,4 @@ final class UpdateJson extends \MarketoSDK\Client
         $result = $this->executeBody(self::operation(self::POST), $payload, path: ['userid' => $userid]);
         return $result;
     }
-
 }

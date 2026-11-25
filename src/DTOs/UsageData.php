@@ -7,14 +7,14 @@ namespace MarketoSDK\DTOs;
 final class UsageData extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'date',
-];
+        'date',
+    ];
 
     protected const array VALIDATION = [
-    'total' => [
-        'format' => 'int32',
-    ],
-];
+        'total' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Date of the collected calls

@@ -7,8 +7,8 @@ namespace MarketoSDK\DTOs\Add\CustomObjectTypeFields;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'input',
-];
+        'input',
+    ];
 
     /**
      * List of fields to add to custom object type

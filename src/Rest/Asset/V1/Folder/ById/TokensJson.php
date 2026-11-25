@@ -27,5 +27,4 @@ final class TokensJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\Asset\V1\Folder\ById\TokensJson::class)->post($id, $payload);
     }
-
 }

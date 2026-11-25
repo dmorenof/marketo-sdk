@@ -7,8 +7,8 @@ namespace MarketoSDK\DTOs\Add\RichText;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'text',
-];
+        'text',
+    ];
 
     /**
      * Multipart file. HTML Content for the rich text field.

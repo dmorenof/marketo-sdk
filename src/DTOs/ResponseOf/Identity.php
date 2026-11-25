@@ -7,11 +7,11 @@ namespace MarketoSDK\DTOs\ResponseOf;
 final class Identity extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'access_token',
-    'expires_in',
-    'scope',
-    'token_type',
-];
+        'access_token',
+        'expires_in',
+        'scope',
+        'token_type',
+    ];
 
     /**
      * The token that you pass with subsequent calls to authenticate with the target instance

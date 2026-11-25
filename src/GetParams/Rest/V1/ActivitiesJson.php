@@ -7,52 +7,52 @@ namespace MarketoSDK\GetParams\Rest\V1;
 final class ActivitiesJson extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'activityTypeIds',
-    'nextPageToken',
-];
+        'activityTypeIds',
+        'nextPageToken',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'activityTypeIds' => 'activityTypeIds',
-        'assetIds' => 'assetIds',
-        'batchSize' => 'batchSize',
-        'leadIds' => 'leadIds',
-        'listId' => 'listId',
-        'nextPageToken' => 'nextPageToken',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'activityTypeIds' => 'activityTypeIds',
+            'assetIds' => 'assetIds',
+            'batchSize' => 'batchSize',
+            'leadIds' => 'leadIds',
+            'listId' => 'listId',
+            'nextPageToken' => 'nextPageToken',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'activityTypeIds' => [
-        'items' => [
-            'type' => 'int',
-            'rules' => [
-                'format' => 'int32',
+        'activityTypeIds' => [
+            'items' => [
+                'type' => 'int',
+                'rules' => [
+                    'format' => 'int32',
+                ],
             ],
         ],
-    ],
-    'assetIds' => [
-        'items' => [
-            'type' => 'int',
-            'rules' => [
-                'format' => 'int32',
+        'assetIds' => [
+            'items' => [
+                'type' => 'int',
+                'rules' => [
+                    'format' => 'int32',
+                ],
             ],
         ],
-    ],
-    'batchSize' => [
-        'format' => 'int32',
-    ],
-    'leadIds' => [
-        'items' => [
-            'type' => 'int',
-            'rules' => [],
+        'batchSize' => [
+            'format' => 'int32',
         ],
-    ],
-    'listId' => [
-        'format' => 'int32',
-    ],
-];
+        'leadIds' => [
+            'items' => [
+                'type' => 'int',
+                'rules' => [],
+            ],
+        ],
+        'listId' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /** @var list<int> */
     public array $activityTypeIds;

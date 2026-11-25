@@ -7,12 +7,12 @@ namespace MarketoSDK\DTOs\Lead;
 final class Attribute2Fields extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'crmManaged',
-    'dataType',
-    'displayName',
-    'name',
-    'updateable',
-];
+        'crmManaged',
+        'dataType',
+        'displayName',
+        'name',
+        'updateable',
+    ];
 
     /**
      * Is field managed by CRM

@@ -27,5 +27,4 @@ final class OpportunitiesJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\V1\OpportunitiesJson::class)->post($payload);
     }
-
 }

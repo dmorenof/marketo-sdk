@@ -7,10 +7,10 @@ namespace MarketoSDK\DTOs\Create\LandingPageRedirectRule;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'hostname',
-    'redirectFrom',
-    'redirectTo',
-];
+        'hostname',
+        'redirectFrom',
+        'redirectTo',
+    ];
 
     /**
      * The hostname for the landing pages. Branding domain or alias. Max 255 characters

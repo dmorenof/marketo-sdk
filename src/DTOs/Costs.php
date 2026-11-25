@@ -7,15 +7,15 @@ namespace MarketoSDK\DTOs;
 final class Costs extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'cost',
-    'startDate',
-];
+        'cost',
+        'startDate',
+    ];
 
     protected const array VALIDATION = [
-    'cost' => [
-        'format' => 'int32',
-    ],
-];
+        'cost' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Amount of the cost

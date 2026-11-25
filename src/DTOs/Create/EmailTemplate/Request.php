@@ -7,10 +7,10 @@ namespace MarketoSDK\DTOs\Create\EmailTemplate;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'content',
-    'folder',
-    'name',
-];
+        'content',
+        'folder',
+        'name',
+    ];
 
     /**
      * HTML content for template. Multipart file.

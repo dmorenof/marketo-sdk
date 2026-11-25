@@ -7,8 +7,8 @@ namespace MarketoSDK\DTOs\Update\LeadField;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'input',
-];
+        'input',
+    ];
 
     /**
      * Single lead field for input

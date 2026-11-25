@@ -7,19 +7,19 @@ namespace MarketoSDK\DTOs;
 final class ThankYouPageRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'followupType',
-    'followupValue',
-    'operator',
-    'subjectField',
-    'values',
-];
+        'followupType',
+        'followupValue',
+        'operator',
+        'subjectField',
+        'values',
+    ];
 
     protected const array PROPERTY_MAP = [
-    'default' => 'default_',
-];
+        'default' => 'default_',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'default_' => 'default',
-];
+        'default_' => 'default',
+    ];
 
     /**
      * When true, this is the default rule, and will be applied when a user does not qualify for any of the other rules

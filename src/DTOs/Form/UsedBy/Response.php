@@ -7,12 +7,12 @@ namespace MarketoSDK\DTOs\Form\UsedBy;
 final class Response extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'id',
-    'name',
-    'status',
-    'type',
-    'updatedAt',
-];
+        'id',
+        'name',
+        'status',
+        'type',
+        'updatedAt',
+    ];
 
     /**
      * Id of the asset

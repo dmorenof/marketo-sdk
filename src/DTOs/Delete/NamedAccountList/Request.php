@@ -7,8 +7,8 @@ namespace MarketoSDK\DTOs\Delete\NamedAccountList;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'input',
-];
+        'input',
+    ];
 
     /**
      * Key to use for deletion of the record

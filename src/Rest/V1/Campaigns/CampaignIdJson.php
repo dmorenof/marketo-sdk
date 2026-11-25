@@ -16,5 +16,4 @@ final class CampaignIdJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\V1\Campaigns\CampaignIdJson::class)->get($campaignId);
     }
-
 }

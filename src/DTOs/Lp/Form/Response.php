@@ -7,27 +7,27 @@ namespace MarketoSDK\DTOs\Lp\Form;
 final class Response extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'buttonLabel',
-    'buttonLocation',
-    'folder',
-    'fontFamily',
-    'fontSize',
-    'knownVisitor',
-    'labelPosition',
-    'language',
-    'locale',
-    'progressiveProfiling',
-    'status',
-    'thankYouList',
-    'theme',
-    'waitingLabel',
-];
+        'buttonLabel',
+        'buttonLocation',
+        'folder',
+        'fontFamily',
+        'fontSize',
+        'knownVisitor',
+        'labelPosition',
+        'language',
+        'locale',
+        'progressiveProfiling',
+        'status',
+        'thankYouList',
+        'theme',
+        'waitingLabel',
+    ];
 
     protected const array VALIDATION = [
-    'buttonLocation' => [
-        'format' => 'int32',
-    ],
-];
+        'buttonLocation' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Label text of the button

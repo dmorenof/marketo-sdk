@@ -23,5 +23,4 @@ final class LinkableObjectsJson extends \MarketoSDK\Client
         $result = $this->executeOperation(self::operation(self::GET));
         return $result;
     }
-
 }

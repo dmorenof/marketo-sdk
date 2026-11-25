@@ -7,8 +7,8 @@ namespace MarketoSDK\DTOs;
 final class SendSampleEmailRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'emailAddress',
-];
+        'emailAddress',
+    ];
 
     /**
      * Email address to receive sample email

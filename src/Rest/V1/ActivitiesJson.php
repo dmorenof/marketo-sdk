@@ -16,5 +16,4 @@ final class ActivitiesJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\V1\ActivitiesJson::class)->get($params);
     }
-
 }

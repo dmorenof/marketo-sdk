@@ -7,19 +7,19 @@ namespace MarketoSDK\DTOs\Lead;
 final class Attribute extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'dataType',
-    'displayName',
-    'id',
-];
+        'dataType',
+        'displayName',
+        'id',
+    ];
 
     protected const array VALIDATION = [
-    'id' => [
-        'format' => 'int32',
-    ],
-    'length' => [
-        'format' => 'int32',
-    ],
-];
+        'id' => [
+            'format' => 'int32',
+        ],
+        'length' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Datatype of the field

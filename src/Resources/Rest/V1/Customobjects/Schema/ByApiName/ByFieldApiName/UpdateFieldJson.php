@@ -29,5 +29,4 @@ final class UpdateFieldJson extends \MarketoSDK\Client
         $result = $this->executeBody(self::operation(self::POST), $payload, path: $identifier);
         return $result;
     }
-
 }

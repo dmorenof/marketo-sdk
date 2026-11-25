@@ -16,5 +16,4 @@ final class SegmentsJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\Asset\V1\Segmentation\ById\SegmentsJson::class)->get($id, $params);
     }
-
 }

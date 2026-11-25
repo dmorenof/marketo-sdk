@@ -7,10 +7,10 @@ namespace MarketoSDK\DTOs;
 final class SalesPerson extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'seq' => [
-        'format' => 'int32',
-    ],
-];
+        'seq' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Unique integer id of the salesperson record

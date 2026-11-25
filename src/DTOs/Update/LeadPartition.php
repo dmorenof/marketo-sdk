@@ -7,15 +7,15 @@ namespace MarketoSDK\DTOs\Update;
 final class LeadPartition extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'id',
-    'partitionName',
-];
+        'id',
+        'partitionName',
+    ];
 
     protected const array VALIDATION = [
-    'id' => [
-        'format' => 'int32',
-    ],
-];
+        'id' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Unique integer id of a lead record

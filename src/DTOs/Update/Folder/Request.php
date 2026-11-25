@@ -7,8 +7,8 @@ namespace MarketoSDK\DTOs\Update\Folder;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     /**
      * Description of the asset

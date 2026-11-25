@@ -7,16 +7,16 @@ namespace MarketoSDK\DTOs\Smart;
 final class Campaign extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'createdAt',
-    'smartCampaignId',
-    'updatedAt',
-];
+        'createdAt',
+        'smartCampaignId',
+        'updatedAt',
+    ];
 
     protected const array VALIDATION = [
-    'smartCampaignId' => [
-        'format' => 'int32',
-    ],
-];
+        'smartCampaignId' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Datetime when the smart campaign was created

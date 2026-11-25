@@ -7,15 +7,15 @@ namespace MarketoSDK\DTOs\Email\Template;
 final class Response extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'folder',
-    'status',
-];
+        'folder',
+        'status',
+    ];
 
     protected const array VALIDATION = [
-    'version' => [
-        'format' => 'int32',
-    ],
-];
+        'version' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Datetime the asset was created

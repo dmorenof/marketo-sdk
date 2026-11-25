@@ -47,5 +47,4 @@ final class FilesJson extends \MarketoSDK\Client
         $result = $this->executeBody(self::operation(self::POST), $payload);
         return $result;
     }
-
 }

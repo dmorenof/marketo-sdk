@@ -7,20 +7,20 @@ namespace MarketoSDK\DTOs;
 final class CustomActivity extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'activityDate',
-    'activityTypeId',
-    'attributes',
-    'errors',
-    'id',
-    'leadId',
-    'primaryAttributeValue',
-];
+        'activityDate',
+        'activityTypeId',
+        'attributes',
+        'errors',
+        'id',
+        'leadId',
+        'primaryAttributeValue',
+    ];
 
     protected const array VALIDATION = [
-    'activityTypeId' => [
-        'format' => 'int32',
-    ],
-];
+        'activityTypeId' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Datetime of the activity

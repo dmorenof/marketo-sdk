@@ -7,14 +7,14 @@ namespace MarketoSDK\DTOs\ProgramMember;
 final class Attribute2 extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'createdAt',
-    'dedupeFields',
-    'description',
-    'fields',
-    'name',
-    'searchableFields',
-    'updatedAt',
-];
+        'createdAt',
+        'dedupeFields',
+        'description',
+        'fields',
+        'name',
+        'searchableFields',
+        'updatedAt',
+    ];
 
     /**
      * Datetime when created

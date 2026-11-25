@@ -7,15 +7,15 @@ namespace MarketoSDK\DTOs\Smart;
 final class ListResponseWithRules extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'createdAt',
-    'description',
-    'folder',
-    'id',
-    'name',
-    'updatedAt',
-    'url',
-    'workspace',
-];
+        'createdAt',
+        'description',
+        'folder',
+        'id',
+        'name',
+        'updatedAt',
+        'url',
+        'workspace',
+    ];
 
     /**
      * Datetime the smart list was created

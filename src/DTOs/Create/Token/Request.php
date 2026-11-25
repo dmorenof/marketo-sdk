@@ -7,11 +7,11 @@ namespace MarketoSDK\DTOs\Create\Token;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'folderType',
-    'name',
-    'type',
-    'value',
-];
+        'folderType',
+        'name',
+        'type',
+        'value',
+    ];
 
     /**
      * Type of folder. 'Folder' or 'Program'

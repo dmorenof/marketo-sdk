@@ -7,9 +7,9 @@ namespace MarketoSDK\DTOs\Snippet;
 final class Response extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'folder',
-    'status',
-];
+        'folder',
+        'status',
+    ];
 
     /**
      * Datetime the asset was created

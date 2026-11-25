@@ -7,11 +7,11 @@ namespace MarketoSDK\DTOs\Form;
 final class ThankYouPageDTO extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array PROPERTY_MAP = [
-    'default' => 'default_',
-];
+        'default' => 'default_',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'default_' => 'default',
-];
+        'default_' => 'default',
+    ];
 
     public bool $default_;
     public string $followupType;

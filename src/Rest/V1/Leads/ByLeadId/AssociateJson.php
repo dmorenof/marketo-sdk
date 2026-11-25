@@ -16,5 +16,4 @@ final class AssociateJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\V1\Leads\ByLeadId\AssociateJson::class)->post($leadId, $params);
     }
-
 }

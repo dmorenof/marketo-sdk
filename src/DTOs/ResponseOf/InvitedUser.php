@@ -10,23 +10,23 @@ namespace MarketoSDK\DTOs\ResponseOf;
 final class InvitedUser extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'createdAt',
-    'emailAddress',
-    'expiresAt',
-    'firstName',
-    'id',
-    'lastName',
-    'status',
-    'subscriptionId',
-    'updatedAt',
-    'userid',
-];
+        'createdAt',
+        'emailAddress',
+        'expiresAt',
+        'firstName',
+        'id',
+        'lastName',
+        'status',
+        'subscriptionId',
+        'updatedAt',
+        'userid',
+    ];
 
     protected const array VALIDATION = [
-    'id' => [
-        'format' => 'int32',
-    ],
-];
+        'id' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Date and time when user login was created.  Example: yyyy-MM-dd'T'HH:mm:ss.SSS't'Z

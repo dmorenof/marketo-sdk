@@ -7,10 +7,10 @@ namespace MarketoSDK\DTOs;
 final class SubmitButtonRequest extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'buttonPosition' => [
-        'format' => 'int32',
-    ],
-];
+        'buttonPosition' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Location in pixels of the button relative to the left of the form

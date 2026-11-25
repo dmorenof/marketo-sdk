@@ -7,10 +7,10 @@ namespace MarketoSDK\DTOs;
 final class ObjectRelation extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'field',
-    'relatedTo',
-    'type',
-];
+        'field',
+        'relatedTo',
+        'type',
+    ];
 
     /**
      * API Name of link field

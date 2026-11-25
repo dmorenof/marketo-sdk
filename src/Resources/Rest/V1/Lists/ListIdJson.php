@@ -28,5 +28,4 @@ final class ListIdJson extends \MarketoSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), path: ['listId' => $listId]);
         return $result;
     }
-
 }

@@ -16,5 +16,4 @@ final class FileJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Bulk\V1\Activities\Export\ByExportId\FileJson::class)->get($exportId, $params);
     }
-
 }

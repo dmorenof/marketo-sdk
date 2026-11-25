@@ -7,15 +7,15 @@ namespace MarketoSDK\DTOs\Update\FileContent;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'file',
-    'id',
-];
+        'file',
+        'id',
+    ];
 
     protected const array VALIDATION = [
-    'id' => [
-        'format' => 'int32',
-    ],
-];
+        'id' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Multipart file. Content of the file.

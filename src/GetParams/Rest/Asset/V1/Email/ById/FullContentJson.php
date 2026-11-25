@@ -7,20 +7,20 @@ namespace MarketoSDK\GetParams\Rest\Asset\V1\Email\ById;
 final class FullContentJson extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'leadId' => 'leadId',
-        'status' => 'status',
-        'type' => 'type',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'leadId' => 'leadId',
+            'status' => 'status',
+            'type' => 'type',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'leadId' => [
-        'format' => 'int32',
-    ],
-];
+        'leadId' => [
+            'format' => 'int32',
+        ],
+    ];
 
     public ?int $leadId {
         set {

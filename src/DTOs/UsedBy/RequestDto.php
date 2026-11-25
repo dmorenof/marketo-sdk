@@ -10,17 +10,17 @@ namespace MarketoSDK\DTOs\UsedBy;
 final class RequestDto extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'assetId',
-];
+        'assetId',
+    ];
 
     protected const array VALIDATION = [
-    'pageIndex' => [
-        'format' => 'int32',
-    ],
-    'pageSize' => [
-        'format' => 'int32',
-    ],
-];
+        'pageIndex' => [
+            'format' => 'int32',
+        ],
+        'pageSize' => [
+            'format' => 'int32',
+        ],
+    ];
 
     public string $assetId;
     /**

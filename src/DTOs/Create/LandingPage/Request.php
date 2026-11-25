@@ -7,16 +7,16 @@ namespace MarketoSDK\DTOs\Create\LandingPage;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'folder',
-    'name',
-    'template',
-];
+        'folder',
+        'name',
+        'template',
+    ];
 
     protected const array VALIDATION = [
-    'template' => [
-        'format' => 'int32',
-    ],
-];
+        'template' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Any custom HTML to embed in the <head> tag of the page

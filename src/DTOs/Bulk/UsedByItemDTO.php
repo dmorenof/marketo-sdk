@@ -10,10 +10,10 @@ namespace MarketoSDK\DTOs\Bulk;
 final class UsedByItemDTO extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'count' => [
-        'format' => 'int32',
-    ],
-];
+        'count' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Number of places the asset is used.

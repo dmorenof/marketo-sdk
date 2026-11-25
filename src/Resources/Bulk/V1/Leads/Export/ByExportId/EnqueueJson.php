@@ -23,5 +23,4 @@ final class EnqueueJson extends \MarketoSDK\Client
         $result = $this->executeArguments(self::operation(self::POST), path: ['exportId' => $exportId]);
         return $result;
     }
-
 }

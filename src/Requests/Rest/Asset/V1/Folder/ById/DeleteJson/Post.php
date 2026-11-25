@@ -7,8 +7,8 @@ namespace MarketoSDK\Requests\Rest\Asset\V1\Folder\ById\DeleteJson;
 final class Post extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     /**
      * type

@@ -7,18 +7,18 @@ namespace MarketoSDK\DTOs;
 final class ChannelResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'applicableProgramType',
-    'createdAt',
-    'id',
-    'name',
-    'updatedAt',
-];
+        'applicableProgramType',
+        'createdAt',
+        'id',
+        'name',
+        'updatedAt',
+    ];
 
     protected const array VALIDATION = [
-    'id' => [
-        'format' => 'int32',
-    ],
-];
+        'id' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Types of programs to which the channel can apply

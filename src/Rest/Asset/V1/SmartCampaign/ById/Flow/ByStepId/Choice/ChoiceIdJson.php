@@ -16,5 +16,4 @@ final class ChoiceIdJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\Asset\V1\SmartCampaign\ById\Flow\ByStepId\Choice\ChoiceIdJson::class)->post($identifier, $payload);
     }
-
 }

@@ -7,10 +7,10 @@ namespace MarketoSDK\DTOs\Email\Variable;
 final class Response extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'moduleScope',
-    'name',
-    'value',
-];
+        'moduleScope',
+        'name',
+        'value',
+    ];
 
     /**
      * Returns the moduleId associated with the variable, only in case of local variable

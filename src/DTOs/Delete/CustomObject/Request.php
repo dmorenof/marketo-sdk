@@ -7,8 +7,8 @@ namespace MarketoSDK\DTOs\Delete\CustomObject;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'input',
-];
+        'input',
+    ];
 
     /**
      * Field to delete records by. Permissible values are idField or dedupeFields as indicated by the result of the corresponding describe record

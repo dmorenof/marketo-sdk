@@ -7,9 +7,9 @@ namespace MarketoSDK\DTOs\Create\Snippet;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'folder',
-    'name',
-];
+        'folder',
+        'name',
+    ];
 
     /**
      * Description of the snippet

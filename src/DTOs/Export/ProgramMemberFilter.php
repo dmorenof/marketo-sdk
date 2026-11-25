@@ -7,10 +7,10 @@ namespace MarketoSDK\DTOs\Export;
 final class ProgramMemberFilter extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'programId' => [
-        'format' => 'int32',
-    ],
-];
+        'programId' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Filter program membership records for people who have exhausted content

@@ -7,10 +7,10 @@ namespace MarketoSDK\DTOs\Lead;
 final class Attribute2 extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'fields',
-    'name',
-    'searchableFields',
-];
+        'fields',
+        'name',
+        'searchableFields',
+    ];
 
     /**
      * Description of searchable fields

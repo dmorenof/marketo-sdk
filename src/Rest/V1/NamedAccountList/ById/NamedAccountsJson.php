@@ -27,5 +27,4 @@ final class NamedAccountsJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\V1\NamedAccountList\ById\NamedAccountsJson::class)->post($id, $payload);
     }
-
 }

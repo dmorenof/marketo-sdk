@@ -16,5 +16,4 @@ final class CampaignsJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\V1\CampaignsJson::class)->get($params);
     }
-
 }

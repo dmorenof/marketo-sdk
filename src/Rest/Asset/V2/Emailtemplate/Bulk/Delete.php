@@ -16,5 +16,4 @@ final class Delete extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\Asset\V2\Emailtemplate\Bulk\Delete::class)->post($params);
     }
-
 }

@@ -7,9 +7,9 @@ namespace MarketoSDK\DTOs\Email;
 final class HeaderField extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-    'value',
-];
+        'type',
+        'value',
+    ];
 
     /**
      * Field type

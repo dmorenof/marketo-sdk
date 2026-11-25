@@ -7,8 +7,8 @@ namespace MarketoSDK\DTOs\Create\LpForm;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'folder',
-];
+        'folder',
+    ];
 
     /**
      * Description of the form

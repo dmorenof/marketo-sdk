@@ -7,13 +7,13 @@ namespace MarketoSDK\DTOs;
 final class ProgramResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'channel',
-    'costs',
-    'folder',
-    'status',
-    'tags',
-    'type',
-];
+        'channel',
+        'costs',
+        'folder',
+        'status',
+        'tags',
+        'type',
+    ];
 
     /**
      * Channel of the program

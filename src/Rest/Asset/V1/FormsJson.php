@@ -27,5 +27,4 @@ final class FormsJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\Asset\V1\FormsJson::class)->post($payload);
     }
-
 }

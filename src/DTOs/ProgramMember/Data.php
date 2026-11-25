@@ -7,18 +7,18 @@ namespace MarketoSDK\DTOs\ProgramMember;
 final class Data extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'leadId',
-    'FieldApiName',
-];
+        'leadId',
+        'FieldApiName',
+    ];
 
     protected const array PROPERTY_MAP = [
-    '{fieldApiName2}' => 'FieldApiName2',
-    '{fieldApiName}' => 'FieldApiName',
-];
+        '{fieldApiName2}' => 'FieldApiName2',
+        '{fieldApiName}' => 'FieldApiName',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'FieldApiName2' => '{fieldApiName2}',
-    'FieldApiName' => '{fieldApiName}',
-];
+        'FieldApiName2' => '{fieldApiName2}',
+        'FieldApiName' => '{fieldApiName}',
+    ];
 
     /**
      * Unique integer id of a lead record

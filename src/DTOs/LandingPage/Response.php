@@ -7,17 +7,17 @@ namespace MarketoSDK\DTOs\LandingPage;
 final class Response extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'customHeadHTML',
-    'facebookOgTags',
-    'robots',
-    'title',
-];
+        'customHeadHTML',
+        'facebookOgTags',
+        'robots',
+        'title',
+    ];
 
     protected const array VALIDATION = [
-    'template' => [
-        'format' => 'int32',
-    ],
-];
+        'template' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Public URL of the landing page, including the /lp/{munchkinId} path segment

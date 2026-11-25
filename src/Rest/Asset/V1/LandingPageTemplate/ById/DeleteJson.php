@@ -16,5 +16,4 @@ final class DeleteJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\Asset\V1\LandingPageTemplate\ById\DeleteJson::class)->post($id);
     }
-
 }

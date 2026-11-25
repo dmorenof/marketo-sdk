@@ -7,10 +7,10 @@ namespace MarketoSDK\DTOs\Create\File;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'file',
-    'folder',
-    'name',
-];
+        'file',
+        'folder',
+        'name',
+    ];
 
     /**
      * Description of the asset

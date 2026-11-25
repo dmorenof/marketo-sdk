@@ -16,5 +16,4 @@ final class AutoSuggestJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\Asset\V1\SmartCampaign\ById\AutoSuggestJson::class)->get($id, $params);
     }
-
 }

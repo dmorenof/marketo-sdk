@@ -7,18 +7,18 @@ namespace MarketoSDK\DTOs\Lp\TemplateGetContent;
 final class Response extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'content',
-    'enableMunchkin',
-    'id',
-    'status',
-    'templateType',
-];
+        'content',
+        'enableMunchkin',
+        'id',
+        'status',
+        'templateType',
+    ];
 
     protected const array VALIDATION = [
-    'id' => [
-        'format' => 'int32',
-    ],
-];
+        'id' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * HTML content of the landing page template

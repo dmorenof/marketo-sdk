@@ -16,5 +16,4 @@ final class RichTextJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\Asset\V1\Form\ById\RichTextJson::class)->post($id, $payload);
     }
-
 }

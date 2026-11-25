@@ -7,23 +7,23 @@ namespace MarketoSDK\PathParams\Rest\Asset\V1\LandingPage\ById\Content\ByContent
 final class DeleteJson extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'contentId',
-    'id',
-];
+        'contentId',
+        'id',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [
-        'contentId' => 'contentId',
-        'id' => 'id',
-    ],
-    'query' => [],
-    'header' => [],
-];
+        'path' => [
+            'contentId' => 'contentId',
+            'id' => 'id',
+        ],
+        'query' => [],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'id' => [
-        'format' => 'int32',
-    ],
-];
+        'id' => [
+            'format' => 'int32',
+        ],
+    ];
 
     public string $contentId;
     public int $id {

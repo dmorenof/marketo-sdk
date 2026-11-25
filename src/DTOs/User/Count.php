@@ -7,15 +7,15 @@ namespace MarketoSDK\DTOs\User;
 final class Count extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'count',
-    'userId',
-];
+        'count',
+        'userId',
+    ];
 
     protected const array VALIDATION = [
-    'count' => [
-        'format' => 'int32',
-    ],
-];
+        'count' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Number of calls made in the time period

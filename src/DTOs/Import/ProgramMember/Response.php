@@ -10,16 +10,16 @@ namespace MarketoSDK\DTOs\Import\ProgramMember;
 final class Response extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'batchId',
-    'importId',
-    'status',
-];
+        'batchId',
+        'importId',
+        'status',
+    ];
 
     protected const array VALIDATION = [
-    'batchId' => [
-        'format' => 'int32',
-    ],
-];
+        'batchId' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Unique integer id of the import job

@@ -7,16 +7,16 @@ namespace MarketoSDK\DTOs\Get\EmailFullContent;
 final class Response extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'content',
-    'id',
-    'status',
-];
+        'content',
+        'id',
+        'status',
+    ];
 
     protected const array VALIDATION = [
-    'id' => [
-        'format' => 'int32',
-    ],
-];
+        'id' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * HTML content of the email

@@ -7,9 +7,9 @@ namespace MarketoSDK\DTOs\Create\LandingPageContent;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'contentId',
-    'type',
-];
+        'contentId',
+        'type',
+    ];
 
     /**
      * background-color property of the HTML section

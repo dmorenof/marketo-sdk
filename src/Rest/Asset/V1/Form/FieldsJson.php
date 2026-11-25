@@ -16,5 +16,4 @@ final class FieldsJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\Asset\V1\Form\FieldsJson::class)->get($params);
     }
-
 }

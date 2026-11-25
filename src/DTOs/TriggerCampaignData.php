@@ -7,8 +7,8 @@ namespace MarketoSDK\DTOs;
 final class TriggerCampaignData extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'leads',
-];
+        'leads',
+    ];
 
     /**
      * List of leads for input

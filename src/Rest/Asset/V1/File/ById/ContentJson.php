@@ -16,5 +16,4 @@ final class ContentJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\Asset\V1\File\ById\ContentJson::class)->post($id, $payload);
     }
-
 }

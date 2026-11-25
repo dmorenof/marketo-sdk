@@ -16,5 +16,4 @@ final class DeactivateJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\Asset\V1\SmartCampaign\ById\DeactivateJson::class)->post($id);
     }
-
 }

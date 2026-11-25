@@ -7,19 +7,19 @@ namespace MarketoSDK\DTOs;
 final class FlowStep extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'activityTypeId',
-    'activityTypeName',
-    'id',
-];
+        'activityTypeId',
+        'activityTypeName',
+        'id',
+    ];
 
     protected const array VALIDATION = [
-    'activityTypeId' => [
-        'format' => 'int32',
-    ],
-    'id' => [
-        'format' => 'int32',
-    ],
-];
+        'activityTypeId' => [
+            'format' => 'int32',
+        ],
+        'id' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Id of the flow step action type

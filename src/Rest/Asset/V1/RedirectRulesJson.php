@@ -27,5 +27,4 @@ final class RedirectRulesJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\Asset\V1\RedirectRulesJson::class)->post($payload);
     }
-
 }

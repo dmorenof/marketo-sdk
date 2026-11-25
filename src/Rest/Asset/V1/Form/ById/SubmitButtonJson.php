@@ -16,5 +16,4 @@ final class SubmitButtonJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\Asset\V1\Form\ById\SubmitButtonJson::class)->post($id, $payload);
     }
-
 }

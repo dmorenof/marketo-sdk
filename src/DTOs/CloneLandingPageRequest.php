@@ -7,15 +7,15 @@ namespace MarketoSDK\DTOs;
 final class CloneLandingPageRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'folder',
-    'name',
-];
+        'folder',
+        'name',
+    ];
 
     protected const array VALIDATION = [
-    'template' => [
-        'format' => 'int32',
-    ],
-];
+        'template' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Description of the asset

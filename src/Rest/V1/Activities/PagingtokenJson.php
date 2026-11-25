@@ -16,5 +16,4 @@ final class PagingtokenJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\V1\Activities\PagingtokenJson::class)->get($params);
     }
-
 }

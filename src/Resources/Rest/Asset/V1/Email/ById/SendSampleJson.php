@@ -34,5 +34,4 @@ final class SendSampleJson extends \MarketoSDK\Client
         $result = $this->executeBody(self::operation(self::POST), $payload, path: ['id' => $id]);
         return $result;
     }
-
 }

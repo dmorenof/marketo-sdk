@@ -23,5 +23,4 @@ final class SmartListJson extends \MarketoSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), path: ['programId' => $programId], parameters: $params);
         return $result;
     }
-
 }

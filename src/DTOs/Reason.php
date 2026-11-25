@@ -7,9 +7,9 @@ namespace MarketoSDK\DTOs;
 final class Reason extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'code',
-    'message',
-];
+        'code',
+        'message',
+    ];
 
     /**
      * Integer code of the reason

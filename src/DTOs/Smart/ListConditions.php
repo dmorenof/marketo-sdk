@@ -10,14 +10,14 @@ namespace MarketoSDK\DTOs\Smart;
 final class ListConditions extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'values',
-];
+        'values',
+    ];
 
     protected const array VALIDATION = [
-    'activityAttributeId' => [
-        'format' => 'int32',
-    ],
-];
+        'activityAttributeId' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Id of the activity attribute. Present on conditions of activity rules

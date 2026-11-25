@@ -7,21 +7,21 @@ namespace MarketoSDK\GetParams\Rest\Asset\V1;
 final class FormsJson extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'folder' => 'folder',
-        'maxReturn' => 'maxReturn',
-        'offset' => 'offset',
-        'status' => 'status',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'folder' => 'folder',
+            'maxReturn' => 'maxReturn',
+            'offset' => 'offset',
+            'status' => 'status',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'maxReturn' => [
-        'format' => 'int32',
-    ],
-];
+        'maxReturn' => [
+            'format' => 'int32',
+        ],
+    ];
 
     public ?string $folder;
     public ?int $maxReturn {

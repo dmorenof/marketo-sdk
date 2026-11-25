@@ -7,11 +7,11 @@ namespace MarketoSDK\DTOs;
 final class ResponseOfVoid extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'errors',
-    'requestId',
-    'success',
-    'warnings',
-];
+        'errors',
+        'requestId',
+        'success',
+        'warnings',
+    ];
 
     /**
      * Array of errors that occurred if the request was unsuccessful

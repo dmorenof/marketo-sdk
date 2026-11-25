@@ -24,5 +24,4 @@ final class RulesJson extends \MarketoSDK\Client
         $result = $this->executeArguments(self::operation(self::POST), path: ['id' => $id], body: $payload);
         return $result;
     }
-
 }

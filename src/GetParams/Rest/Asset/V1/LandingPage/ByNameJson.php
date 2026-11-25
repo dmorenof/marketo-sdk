@@ -7,27 +7,27 @@ namespace MarketoSDK\GetParams\Rest\Asset\V1\LandingPage;
 final class ByNameJson extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'name',
-];
+        'name',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'maxReturn' => 'maxReturn',
-        'name' => 'name',
-        'offset' => 'offset',
-        'status' => 'status',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'maxReturn' => 'maxReturn',
+            'name' => 'name',
+            'offset' => 'offset',
+            'status' => 'status',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'maxReturn' => [
-        'format' => 'int32',
-    ],
-    'offset' => [
-        'format' => 'int32',
-    ],
-];
+        'maxReturn' => [
+            'format' => 'int32',
+        ],
+        'offset' => [
+            'format' => 'int32',
+        ],
+    ];
 
     public ?int $maxReturn {
         set {

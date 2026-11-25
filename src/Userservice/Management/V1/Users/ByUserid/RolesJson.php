@@ -16,5 +16,4 @@ final class RolesJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Userservice\Management\V1\Users\ByUserid\RolesJson::class)->get($userid);
     }
-
 }

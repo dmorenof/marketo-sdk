@@ -29,5 +29,4 @@ final class Token extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Identity\Oauth\Token::class)->post($params);
     }
-
 }

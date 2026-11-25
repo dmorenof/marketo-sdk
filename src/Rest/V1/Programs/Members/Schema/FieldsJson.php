@@ -27,5 +27,4 @@ final class FieldsJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\V1\Programs\Members\Schema\FieldsJson::class)->post($payload);
     }
-
 }

@@ -23,5 +23,4 @@ final class StatusJson extends \MarketoSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), path: ['exportId' => $exportId]);
         return $result;
     }
-
 }

@@ -29,5 +29,4 @@ final class CreateJson extends \MarketoSDK\Client
         $result = func_num_args() > 0 ? $this->executeBody(self::operation(self::POST), $payload) : $this->executeArguments(self::operation(self::POST));
         return $result;
     }
-
 }

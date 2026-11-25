@@ -29,5 +29,4 @@ final class DeleteFieldJson extends \MarketoSDK\Client
         $result = $this->executeBody(self::operation(self::POST), $payload, path: ['apiName' => $apiName]);
         return $result;
     }
-
 }

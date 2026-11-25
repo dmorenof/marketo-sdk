@@ -7,13 +7,13 @@ namespace MarketoSDK\DTOs\Export;
 final class CustomObjectFilter extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'smartListId' => [
-        'format' => 'int32',
-    ],
-    'staticListId' => [
-        'format' => 'int32',
-    ],
-];
+        'smartListId' => [
+            'format' => 'int32',
+        ],
+        'staticListId' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Id of smart list to retrieve leads from

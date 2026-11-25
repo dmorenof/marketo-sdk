@@ -16,5 +16,4 @@ final class DependentAssetsJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\V1\Customobjects\Schema\ByApiName\DependentAssetsJson::class)->get($apiName);
     }
-
 }

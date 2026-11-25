@@ -7,15 +7,15 @@ namespace MarketoSDK\DTOs;
 final class ErrorCount extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'count',
-    'errorCode',
-];
+        'count',
+        'errorCode',
+    ];
 
     protected const array VALIDATION = [
-    'count' => [
-        'format' => 'int32',
-    ],
-];
+        'count' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Number of occurences of the error

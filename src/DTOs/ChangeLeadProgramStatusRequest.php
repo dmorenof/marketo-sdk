@@ -7,9 +7,9 @@ namespace MarketoSDK\DTOs;
 final class ChangeLeadProgramStatusRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'input',
-    'status',
-];
+        'input',
+        'status',
+    ];
 
     /**
      * List of leads for input

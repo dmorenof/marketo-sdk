@@ -26,5 +26,4 @@ final class ProgramMembershipJson extends \MarketoSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), path: ['leadId' => $leadId], parameters: $params);
         return $result;
     }
-
 }

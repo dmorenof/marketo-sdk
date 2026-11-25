@@ -7,9 +7,9 @@ namespace MarketoSDK\DTOs\CustomActivity;
 final class TypeAttribute extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'apiName',
-    'name',
-];
+        'apiName',
+        'name',
+    ];
 
     /**
      * API Name of the attribute

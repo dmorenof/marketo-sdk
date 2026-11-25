@@ -7,17 +7,17 @@ namespace MarketoSDK\DTOs;
 final class SegmentContent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'content',
-    'segmentId',
-    'segmentName',
-    'type',
-];
+        'content',
+        'segmentId',
+        'segmentName',
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'segmentId' => [
-        'format' => 'int32',
-    ],
-];
+        'segmentId' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Type of content section

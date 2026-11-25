@@ -7,14 +7,14 @@ namespace MarketoSDK\DTOs;
 final class LookupCustomObjectRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'input',
-];
+        'input',
+    ];
 
     protected const array VALIDATION = [
-    'batchSize' => [
-        'format' => 'int32',
-    ],
-];
+        'batchSize' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Maximum number of records to return in the response. Max and default is 300

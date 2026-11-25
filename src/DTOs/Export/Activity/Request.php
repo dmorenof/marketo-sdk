@@ -7,9 +7,9 @@ namespace MarketoSDK\DTOs\Export\Activity;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'fields',
-    'filter',
-];
+        'fields',
+        'filter',
+    ];
 
     /**
      * File header field names override (corresponds with REST API name)

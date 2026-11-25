@@ -23,5 +23,4 @@ final class FieldApiNameJson extends \MarketoSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), path: ['fieldApiName' => $fieldApiName]);
         return $result;
     }
-
 }

@@ -7,9 +7,9 @@ namespace MarketoSDK\DTOs;
 final class SendSampleResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'result',
-    'service',
-];
+        'result',
+        'service',
+    ];
 
     /**
      * Whether call was successful

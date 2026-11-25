@@ -28,5 +28,4 @@ final class FailuresJson extends \MarketoSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), path: $identifier);
         return $result;
     }
-
 }

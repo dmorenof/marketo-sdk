@@ -7,8 +7,8 @@ namespace MarketoSDK\DTOs;
 final class ListOperationOutputData extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'id',
-];
+        'id',
+    ];
 
     /**
      * Unique integer id of a lead record

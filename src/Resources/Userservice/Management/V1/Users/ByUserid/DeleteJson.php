@@ -40,5 +40,4 @@ final class DeleteJson extends \MarketoSDK\Client
         $this->executeArguments(self::operation(self::POST), path: ['userid' => $userid]);
         return;
     }
-
 }

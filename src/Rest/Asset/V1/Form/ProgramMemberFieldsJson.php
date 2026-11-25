@@ -16,5 +16,4 @@ final class ProgramMemberFieldsJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\Asset\V1\Form\ProgramMemberFieldsJson::class)->get($params);
     }
-
 }

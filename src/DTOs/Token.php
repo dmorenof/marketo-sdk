@@ -7,9 +7,9 @@ namespace MarketoSDK\DTOs;
 final class Token extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'name',
-    'value',
-];
+        'name',
+        'value',
+    ];
 
     /**
      * Name of the token. Should be formatted as "{{my.name}}"

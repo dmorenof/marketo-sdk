@@ -7,18 +7,18 @@ namespace MarketoSDK\DTOs\Lead;
 final class Change extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'activityDate',
-    'activityTypeId',
-    'attributes',
-    'id',
-    'leadId',
-];
+        'activityDate',
+        'activityTypeId',
+        'attributes',
+        'id',
+        'leadId',
+    ];
 
     protected const array VALIDATION = [
-    'activityTypeId' => [
-        'format' => 'int32',
-    ],
-];
+        'activityTypeId' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Datetime of the activity

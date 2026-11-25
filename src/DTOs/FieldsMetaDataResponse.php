@@ -7,23 +7,23 @@ namespace MarketoSDK\DTOs;
 final class FieldsMetaDataResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'id',
-];
+        'id',
+    ];
 
     protected const array VALIDATION = [
-    'fieldWidth' => [
-        'format' => 'int32',
-    ],
-    'labelWidth' => [
-        'format' => 'int32',
-    ],
-    'maxLength' => [
-        'format' => 'int32',
-    ],
-    'visibleRows' => [
-        'format' => 'int32',
-    ],
-];
+        'fieldWidth' => [
+            'format' => 'int32',
+        ],
+        'labelWidth' => [
+            'format' => 'int32',
+        ],
+        'maxLength' => [
+            'format' => 'int32',
+        ],
+        'visibleRows' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Type of field

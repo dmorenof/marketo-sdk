@@ -7,17 +7,17 @@ namespace MarketoSDK\PathParams\Bulk\V1\Customobjects\ByApiName\Export\ByExportI
 final class StatusJson extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'apiName',
-    'exportId',
-];
+        'apiName',
+        'exportId',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [
-        'apiName' => 'apiName',
-        'exportId' => 'exportId',
-    ],
-    'query' => [],
-    'header' => [],
-];
+        'path' => [
+            'apiName' => 'apiName',
+            'exportId' => 'exportId',
+        ],
+        'query' => [],
+        'header' => [],
+    ];
 
     public string $apiName;
     public string $exportId;

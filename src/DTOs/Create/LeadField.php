@@ -10,10 +10,10 @@ namespace MarketoSDK\DTOs\Create;
 final class LeadField extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'dataType',
-    'displayName',
-    'name',
-];
+        'dataType',
+        'displayName',
+        'name',
+    ];
 
     /**
      * Datatype of the field

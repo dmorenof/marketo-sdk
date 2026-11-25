@@ -16,5 +16,4 @@ final class UpdateFieldJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\V1\Customobjects\Schema\ByApiName\ByFieldApiName\UpdateFieldJson::class)->post($identifier, $payload);
     }
-
 }

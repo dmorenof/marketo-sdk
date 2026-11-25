@@ -7,16 +7,16 @@ namespace MarketoSDK\PostParams\Bulk\V1\Customobjects\ByApiName;
 final class ImportJson extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'format',
-    'body',
-];
+        'format',
+        'body',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'format' => 'format',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'format' => 'format',
+        ],
+        'header' => [],
+    ];
 
     public const bool OPERATION_BODY = true;
 

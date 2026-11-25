@@ -7,25 +7,25 @@ namespace MarketoSDK\PathParams\Rest\Asset\V1\Form\ById\FieldSet\ByFieldSetId\Fi
 final class DeleteJson extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'fieldId',
-    'fieldSetId',
-    'id',
-];
+        'fieldId',
+        'fieldSetId',
+        'id',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [
-        'fieldId' => 'fieldId',
-        'fieldSetId' => 'fieldSetId',
-        'id' => 'id',
-    ],
-    'query' => [],
-    'header' => [],
-];
+        'path' => [
+            'fieldId' => 'fieldId',
+            'fieldSetId' => 'fieldSetId',
+            'id' => 'id',
+        ],
+        'query' => [],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'id' => [
-        'format' => 'int32',
-    ],
-];
+        'id' => [
+            'format' => 'int32',
+        ],
+    ];
 
     public string $fieldId;
     public string $fieldSetId;

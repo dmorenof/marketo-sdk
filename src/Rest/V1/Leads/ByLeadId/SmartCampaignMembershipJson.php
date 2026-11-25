@@ -16,5 +16,4 @@ final class SmartCampaignMembershipJson extends \MarketoSDK\MarketoEngageRESTAPI
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\V1\Leads\ByLeadId\SmartCampaignMembershipJson::class)->get($leadId, $params);
     }
-
 }

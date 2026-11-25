@@ -7,14 +7,14 @@ namespace MarketoSDK\DTOs;
 final class SegmentsResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'segmentationId',
-];
+        'segmentationId',
+    ];
 
     protected const array VALIDATION = [
-    'segmentationId' => [
-        'format' => 'int32',
-    ],
-];
+        'segmentationId' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Datetime the asset was created

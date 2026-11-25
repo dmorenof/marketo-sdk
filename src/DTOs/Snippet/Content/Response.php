@@ -7,8 +7,8 @@ namespace MarketoSDK\DTOs\Snippet\Content;
 final class Response extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     /**
      * Content of the snippet

@@ -7,16 +7,16 @@ namespace MarketoSDK\DTOs\ProgramMember\Data;
 final class Response extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'leadId',
-    'seq',
-    'status',
-];
+        'leadId',
+        'seq',
+        'status',
+    ];
 
     protected const array VALIDATION = [
-    'seq' => [
-        'format' => 'int32',
-    ],
-];
+        'seq' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Id of the lead associated to the program member

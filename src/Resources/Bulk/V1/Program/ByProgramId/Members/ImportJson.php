@@ -30,5 +30,4 @@ final class ImportJson extends \MarketoSDK\Client
         $result = $this->executeArguments(self::operation(self::POST), path: ['programId' => $programId], parameters: $params);
         return $result;
     }
-
 }

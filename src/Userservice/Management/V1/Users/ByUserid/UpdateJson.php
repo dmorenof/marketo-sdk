@@ -16,5 +16,4 @@ final class UpdateJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Userservice\Management\V1\Users\ByUserid\UpdateJson::class)->post($userid, $payload);
     }
-
 }

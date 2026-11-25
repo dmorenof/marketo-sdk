@@ -12,10 +12,10 @@ final class TemplateDetailDTO extends \MarketoSDK\DTOs\Email\TemplateContentDTO
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'version' => [
-        'format' => 'int32',
-    ],
-];
+        'version' => [
+            'format' => 'int32',
+        ],
+    ];
 
     public \MarketoSDK\DTOs\DataDTO $data;
 

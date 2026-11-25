@@ -10,18 +10,18 @@ namespace MarketoSDK\DTOs\User;
 final class RoleWorkspace extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'accessRoleId',
-    'workspaceId',
-];
+        'accessRoleId',
+        'workspaceId',
+    ];
 
     protected const array VALIDATION = [
-    'accessRoleId' => [
-        'format' => 'int32',
-    ],
-    'workspaceId' => [
-        'format' => 'int32',
-    ],
-];
+        'accessRoleId' => [
+            'format' => 'int32',
+        ],
+        'workspaceId' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * User role Id

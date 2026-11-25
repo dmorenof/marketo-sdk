@@ -23,5 +23,4 @@ final class DependentAssetsJson extends \MarketoSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), path: ['apiName' => $apiName]);
         return $result;
     }
-
 }

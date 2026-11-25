@@ -10,9 +10,9 @@ namespace MarketoSDK\DTOs\Fragment;
 final class SettingsDTO extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'fragmentType',
-    'supportedChannels',
-];
+        'fragmentType',
+        'supportedChannels',
+    ];
 
     public string $fragmentSubType;
     public string $fragmentType;

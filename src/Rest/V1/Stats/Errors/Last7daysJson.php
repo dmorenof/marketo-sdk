@@ -16,5 +16,4 @@ final class Last7daysJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\V1\Stats\Errors\Last7daysJson::class)->get();
     }
-
 }

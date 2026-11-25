@@ -7,31 +7,31 @@ namespace MarketoSDK\GetParams\Rest\V1;
 final class NamedAccountListsJson extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'filterType',
-    'filterValues',
-];
+        'filterType',
+        'filterValues',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'batchSize' => 'batchSize',
-        'filterType' => 'filterType',
-        'filterValues' => 'filterValues',
-        'nextPageToken' => 'nextPageToken',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'batchSize' => 'batchSize',
+            'filterType' => 'filterType',
+            'filterValues' => 'filterValues',
+            'nextPageToken' => 'nextPageToken',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'batchSize' => [
-        'format' => 'int32',
-    ],
-    'filterValues' => [
-        'items' => [
-            'type' => 'string',
-            'rules' => [],
+        'batchSize' => [
+            'format' => 'int32',
         ],
-    ],
-];
+        'filterValues' => [
+            'items' => [
+                'type' => 'string',
+                'rules' => [],
+            ],
+        ],
+    ];
 
     public ?int $batchSize {
         set {

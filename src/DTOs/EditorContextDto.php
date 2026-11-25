@@ -10,5 +10,4 @@ namespace MarketoSDK\DTOs;
 final class EditorContextDto extends \Dmorenof\SdkRuntime\DTO
 {
     public \MarketoSDK\DTOs\EditorContextDto\DynamicContentDTO $dynamicContent;
-
 }

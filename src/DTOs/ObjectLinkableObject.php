@@ -7,10 +7,10 @@ namespace MarketoSDK\DTOs;
 final class ObjectLinkableObject extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'displayName',
-    'fields',
-    'name',
-];
+        'displayName',
+        'fields',
+        'name',
+    ];
 
     /**
      * Link object UI display-name

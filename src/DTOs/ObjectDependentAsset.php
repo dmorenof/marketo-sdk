@@ -7,16 +7,16 @@ namespace MarketoSDK\DTOs;
 final class ObjectDependentAsset extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'assetId',
-    'assetName',
-    'assetType',
-];
+        'assetId',
+        'assetName',
+        'assetType',
+    ];
 
     protected const array VALIDATION = [
-    'assetId' => [
-        'format' => 'int32',
-    ],
-];
+        'assetId' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * ID of asset

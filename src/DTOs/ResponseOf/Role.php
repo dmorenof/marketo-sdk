@@ -10,21 +10,21 @@ namespace MarketoSDK\DTOs\ResponseOf;
 final class Role extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'createdAt',
-    'description',
-    'id',
-    'isHidden',
-    'isOnlyAllZones',
-    'name',
-    'type',
-    'updatedAt',
-];
+        'createdAt',
+        'description',
+        'id',
+        'isHidden',
+        'isOnlyAllZones',
+        'name',
+        'type',
+        'updatedAt',
+    ];
 
     protected const array VALIDATION = [
-    'id' => [
-        'format' => 'int32',
-    ],
-];
+        'id' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Role creation time

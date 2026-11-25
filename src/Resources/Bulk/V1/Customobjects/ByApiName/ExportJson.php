@@ -26,5 +26,4 @@ final class ExportJson extends \MarketoSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), path: ['apiName' => $apiName], parameters: $params);
         return $result;
     }
-
 }

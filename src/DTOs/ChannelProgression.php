@@ -7,10 +7,10 @@ namespace MarketoSDK\DTOs;
 final class ChannelProgression extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'step' => [
-        'format' => 'int32',
-    ],
-];
+        'step' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Description of the program status

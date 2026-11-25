@@ -7,9 +7,9 @@ namespace MarketoSDK\DTOs\LandingPage;
 final class Domain extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'hostname',
-    'type',
-];
+        'hostname',
+        'type',
+    ];
 
     /**
      * The hostname for the landing pages

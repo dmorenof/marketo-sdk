@@ -7,12 +7,12 @@ namespace MarketoSDK\DTOs\ResponseOf;
 final class SalesPerson extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'errors',
-    'requestId',
-    'result',
-    'success',
-    'warnings',
-];
+        'errors',
+        'requestId',
+        'result',
+        'success',
+        'warnings',
+    ];
 
     /**
      * Array of errors that occurred if the request was unsuccessful

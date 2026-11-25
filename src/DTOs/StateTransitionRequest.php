@@ -10,9 +10,9 @@ namespace MarketoSDK\DTOs;
 final class StateTransitionRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'action',
-    'contentId',
-];
+        'action',
+        'contentId',
+    ];
 
     /**
      * The state transition action to perform on the asset

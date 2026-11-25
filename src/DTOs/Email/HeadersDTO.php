@@ -10,8 +10,8 @@ namespace MarketoSDK\DTOs\Email;
 final class HeadersDTO extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'subject',
-];
+        'subject',
+    ];
 
     public \MarketoSDK\Collections\StringCollection $ccEmails;
     public string $fromEmail;

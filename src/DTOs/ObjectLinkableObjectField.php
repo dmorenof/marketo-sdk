@@ -7,10 +7,10 @@ namespace MarketoSDK\DTOs;
 final class ObjectLinkableObjectField extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'dataType',
-    'displayName',
-    'name',
-];
+        'dataType',
+        'displayName',
+        'name',
+    ];
 
     /**
      * Link field data type

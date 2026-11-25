@@ -16,5 +16,4 @@ final class IsmemberJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\V1\Lists\ByListId\Leads\IsmemberJson::class)->get($listId, $params);
     }
-
 }

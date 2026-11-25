@@ -10,16 +10,16 @@ namespace MarketoSDK\DTOs\Lead;
 final class ChangeField extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'id',
-    'name',
-    'newValue',
-];
+        'id',
+        'name',
+        'newValue',
+    ];
 
     protected const array VALIDATION = [
-    'id' => [
-        'format' => 'int32',
-    ],
-];
+        'id' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Unique integer id of the change record

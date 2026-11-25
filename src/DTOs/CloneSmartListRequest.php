@@ -7,9 +7,9 @@ namespace MarketoSDK\DTOs;
 final class CloneSmartListRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'folder',
-    'name',
-];
+        'folder',
+        'name',
+    ];
 
     /**
      * Description of the cloned smart list

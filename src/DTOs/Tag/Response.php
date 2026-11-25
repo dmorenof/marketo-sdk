@@ -7,10 +7,10 @@ namespace MarketoSDK\DTOs\Tag;
 final class Response extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'applicableProgramTypes',
-    'required',
-    'tagType',
-];
+        'applicableProgramTypes',
+        'required',
+        'tagType',
+    ];
 
     /**
      * The list of acceptable values for the tag type

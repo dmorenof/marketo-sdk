@@ -7,9 +7,9 @@ namespace MarketoSDK\DTOs\Sync\CustomObjectType;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'apiName',
-    'displayName',
-];
+        'apiName',
+        'displayName',
+    ];
 
     /**
      * Type of sync operation to perform. Default is createOrUpdate.

@@ -19,5 +19,4 @@ final class NameJson extends \MarketoSDK\MarketoEngageRESTAPISDK
         }
         return self::client()->resource(\MarketoSDK\Resources\Rest\Asset\V1\Email\ById\Variable\NameJson::class)->post($identifier, $payload);
     }
-
 }

@@ -23,5 +23,4 @@ final class ChannelsJson extends \MarketoSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), parameters: $params);
         return $result;
     }
-
 }

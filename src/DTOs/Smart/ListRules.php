@@ -10,10 +10,10 @@ namespace MarketoSDK\DTOs\Smart;
 final class ListRules extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'filterMatchType',
-    'filters',
-    'triggers',
-];
+        'filterMatchType',
+        'filters',
+        'triggers',
+    ];
 
     /**
      * Custom rule logic, for example 1 and (2 or 3). Present when filterMatchType is custom

@@ -7,9 +7,9 @@ namespace MarketoSDK\DTOs;
 final class ChangeLeadProgramStatusOutputData extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'id',
-    'status',
-];
+        'id',
+        'status',
+    ];
 
     /**
      * Unique integer id of a lead record

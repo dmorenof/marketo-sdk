@@ -16,5 +16,4 @@ final class UsageJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\V1\Stats\UsageJson::class)->get();
     }
-
 }

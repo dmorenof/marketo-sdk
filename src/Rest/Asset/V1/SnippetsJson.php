@@ -29,5 +29,4 @@ final class SnippetsJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\Asset\V1\SnippetsJson::class)->post($payload);
     }
-
 }

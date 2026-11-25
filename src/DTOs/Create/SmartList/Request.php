@@ -7,9 +7,9 @@ namespace MarketoSDK\DTOs\Create\SmartList;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'folder',
-    'name',
-];
+        'folder',
+        'name',
+    ];
 
     /**
      * Description of the smart list. Maximum 2,000 characters

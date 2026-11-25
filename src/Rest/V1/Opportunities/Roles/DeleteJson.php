@@ -19,5 +19,4 @@ final class DeleteJson extends \MarketoSDK\MarketoEngageRESTAPISDK
         }
         return self::client()->resource(\MarketoSDK\Resources\Rest\V1\Opportunities\Roles\DeleteJson::class)->post($payload);
     }
-
 }

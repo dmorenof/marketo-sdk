@@ -7,8 +7,8 @@ namespace MarketoSDK\DTOs\LandingPage\Variable;
 final class Response extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'id',
-];
+        'id',
+    ];
 
     /**
      * Integer id of the variable

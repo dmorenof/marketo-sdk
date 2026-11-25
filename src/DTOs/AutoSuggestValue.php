@@ -7,17 +7,17 @@ namespace MarketoSDK\DTOs;
 final class AutoSuggestValue extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'id',
-];
+        'id',
+    ];
 
     protected const array VALIDATION = [
-    'id' => [
-        'format' => 'int32',
-    ],
-    'workspaceId' => [
-        'format' => 'int32',
-    ],
-];
+        'id' => [
+            'format' => 'int32',
+        ],
+        'workspaceId' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Display name of the suggested value

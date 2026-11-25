@@ -7,13 +7,13 @@ namespace MarketoSDK\DTOs\Get\Files;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'maxReturn' => [
-        'format' => 'int32',
-    ],
-    'offset' => [
-        'format' => 'int32',
-    ],
-];
+        'maxReturn' => [
+            'format' => 'int32',
+        ],
+        'offset' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * JSON representation of parent folder, with members 'id', and 'type' which may be 'Folder' or 'Program'

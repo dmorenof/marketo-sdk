@@ -16,5 +16,4 @@ final class RemoveJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\V1\NamedAccountList\ById\NamedAccounts\RemoveJson::class)->post($id, $payload);
     }
-
 }

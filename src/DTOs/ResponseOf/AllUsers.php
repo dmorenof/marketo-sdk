@@ -10,19 +10,19 @@ namespace MarketoSDK\DTOs\ResponseOf;
 final class AllUsers extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'apiOnly',
-    'emailAddress',
-    'firstName',
-    'id',
-    'lastName',
-    'userid',
-];
+        'apiOnly',
+        'emailAddress',
+        'firstName',
+        'id',
+        'lastName',
+        'userid',
+    ];
 
     protected const array VALIDATION = [
-    'id' => [
-        'format' => 'int32',
-    ],
-];
+        'id' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Whether the user is API-Only

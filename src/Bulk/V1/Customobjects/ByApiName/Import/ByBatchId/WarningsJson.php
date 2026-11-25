@@ -16,5 +16,4 @@ final class WarningsJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Bulk\V1\Customobjects\ByApiName\Import\ByBatchId\WarningsJson::class)->get($identifier);
     }
-
 }

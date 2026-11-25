@@ -7,16 +7,16 @@ namespace MarketoSDK\DTOs\Email\Content;
 final class Response extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'contentType',
-    'htmlId',
-    'value',
-];
+        'contentType',
+        'htmlId',
+        'value',
+    ];
 
     protected const array VALIDATION = [
-    'index' => [
-        'format' => 'int32',
-    ],
-];
+        'index' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Type of content to set for the section.

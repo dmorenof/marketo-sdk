@@ -16,5 +16,4 @@ final class SmartListJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\Asset\V1\SmartCampaign\ById\SmartListJson::class)->get($id, $params);
     }
-
 }

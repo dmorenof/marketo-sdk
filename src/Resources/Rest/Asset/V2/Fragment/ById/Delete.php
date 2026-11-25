@@ -45,5 +45,4 @@ final class Delete extends \MarketoSDK\Client
         $result = $this->executeArguments(self::operation(self::POST), path: ['id' => $id], parameters: $params);
         return $result;
     }
-
 }

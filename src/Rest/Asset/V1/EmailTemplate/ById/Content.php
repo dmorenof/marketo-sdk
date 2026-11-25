@@ -16,5 +16,4 @@ final class Content extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\Asset\V1\EmailTemplate\ById\Content::class)->get($id, $params);
     }
-
 }

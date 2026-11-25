@@ -7,9 +7,9 @@ namespace MarketoSDK\DTOs;
 final class ProgramMembership extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'membershipDate',
-    'progressionStatus',
-];
+        'membershipDate',
+        'progressionStatus',
+    ];
 
     /**
      * Whether the lead was acquired by the parent program

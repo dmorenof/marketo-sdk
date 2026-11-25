@@ -7,8 +7,8 @@ namespace MarketoSDK\Requests\Rest\Asset\V1\SmartList\ById\Rule\ByRuleId\RemoveC
 final class Post extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'attributeId',
-];
+        'attributeId',
+    ];
 
     /**
      * JSON representation of the constraint to remove, with members 'id' and 'type' which may be 'activity' or 'attribute', for example {"id":2,"type":"activity"}. 'id' is the id of a constraint of the rule type and 'type' is the type of the rule type, both returned by Get Smart List Rules

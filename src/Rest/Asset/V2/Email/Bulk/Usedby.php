@@ -16,5 +16,4 @@ final class Usedby extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\Asset\V2\Email\Bulk\Usedby::class)->post($params);
     }
-
 }

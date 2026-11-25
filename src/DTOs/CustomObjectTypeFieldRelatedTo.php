@@ -7,9 +7,9 @@ namespace MarketoSDK\DTOs;
 final class CustomObjectTypeFieldRelatedTo extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'field',
-    'name',
-];
+        'field',
+        'name',
+    ];
 
     /**
      * Foreign field to which the parent is linked

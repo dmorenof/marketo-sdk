@@ -10,33 +10,33 @@ namespace MarketoSDK\DTOs\ResponseOf;
 final class User extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'apiOnly',
-    'emailAddress',
-    'expiresAt',
-    'failedDeviceCode',
-    'failedLogins',
-    'firstName',
-    'id',
-    'isLocked',
-    'lastLoginAt',
-    'lastName',
-    'lockedReason',
-    'optedIn',
-    'userRoleWorkspaces',
-    'userid',
-];
+        'apiOnly',
+        'emailAddress',
+        'expiresAt',
+        'failedDeviceCode',
+        'failedLogins',
+        'firstName',
+        'id',
+        'isLocked',
+        'lastLoginAt',
+        'lastName',
+        'lockedReason',
+        'optedIn',
+        'userRoleWorkspaces',
+        'userid',
+    ];
 
     protected const array VALIDATION = [
-    'failedDeviceCode' => [
-        'format' => 'int32',
-    ],
-    'failedLogins' => [
-        'format' => 'int32',
-    ],
-    'id' => [
-        'format' => 'int32',
-    ],
-];
+        'failedDeviceCode' => [
+            'format' => 'int32',
+        ],
+        'failedLogins' => [
+            'format' => 'int32',
+        ],
+        'id' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Whether the user is API-Only

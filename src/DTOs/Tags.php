@@ -7,9 +7,9 @@ namespace MarketoSDK\DTOs;
 final class Tags extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'tagType',
-    'tagValue',
-];
+        'tagType',
+        'tagValue',
+    ];
 
     /**
      * Name of the tag

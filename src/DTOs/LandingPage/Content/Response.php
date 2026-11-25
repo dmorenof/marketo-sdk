@@ -7,15 +7,15 @@ namespace MarketoSDK\DTOs\LandingPage\Content;
 final class Response extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'id',
-    'type',
-];
+        'id',
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'index' => [
-        'format' => 'int32',
-    ],
-];
+        'index' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Content of the section. Expected values vary based on type. Image: An image URL. RichText: HTML Content. HTML: HTML Content. Form: A form id. Rectangle: Empty. Snippet: A snippet id.

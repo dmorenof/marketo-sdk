@@ -16,5 +16,4 @@ final class SubmitFormJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\V1\Leads\SubmitFormJson::class)->post($payload);
     }
-
 }

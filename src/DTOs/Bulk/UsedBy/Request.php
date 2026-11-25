@@ -10,8 +10,8 @@ namespace MarketoSDK\DTOs\Bulk\UsedBy;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'assetIds',
-];
+        'assetIds',
+    ];
 
     /**
      * Asset IDs to query. Maximum 50 per request.

@@ -7,8 +7,8 @@ namespace MarketoSDK\DTOs\Add\FormFieldSet;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'label',
-];
+        'label',
+    ];
 
     /**
      * Label of the fieldset

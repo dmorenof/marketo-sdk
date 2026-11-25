@@ -7,22 +7,22 @@ namespace MarketoSDK\DTOs;
 final class FlowStepChoice extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'default_',
-    'id',
-];
+        'default_',
+        'id',
+    ];
 
     protected const array PROPERTY_MAP = [
-    'default' => 'default_',
-];
+        'default' => 'default_',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'default_' => 'default',
-];
+        'default_' => 'default',
+    ];
 
     protected const array VALIDATION = [
-    'id' => [
-        'format' => 'int32',
-    ],
-];
+        'id' => [
+            'format' => 'int32',
+        ],
+    ];
 
     public \MarketoSDK\Collections\FlowStepChoice\AttributesCollection $attributes;
     /**

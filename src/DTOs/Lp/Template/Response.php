@@ -7,11 +7,11 @@ namespace MarketoSDK\DTOs\Lp\Template;
 final class Response extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'enableMunchkin',
-    'folder',
-    'status',
-    'templateType',
-];
+        'enableMunchkin',
+        'folder',
+        'status',
+        'templateType',
+    ];
 
     /**
      * Datetime the asset was created

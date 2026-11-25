@@ -12,16 +12,16 @@ final class FilterResult extends \MarketoSDK\DTOs\PageDetailsDTO
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'currentPage' => [
-        'format' => 'int32',
-    ],
-    'pageSize' => [
-        'format' => 'int32',
-    ],
-    'totalItems' => [
-        'format' => 'int32',
-    ],
-];
+        'currentPage' => [
+            'format' => 'int32',
+        ],
+        'pageSize' => [
+            'format' => 'int32',
+        ],
+        'totalItems' => [
+            'format' => 'int32',
+        ],
+    ];
 
     public \MarketoSDK\Collections\Email\FilterResult\ItemsCollection $items;
 

@@ -7,28 +7,28 @@ namespace MarketoSDK\GetParams\Rest\Asset\V1\Program;
 final class ByTagJson extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'tagType',
-    'tagValue',
-];
+        'tagType',
+        'tagValue',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'maxReturn' => 'maxReturn',
-        'offset' => 'offset',
-        'tagType' => 'tagType',
-        'tagValue' => 'tagValue',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'maxReturn' => 'maxReturn',
+            'offset' => 'offset',
+            'tagType' => 'tagType',
+            'tagValue' => 'tagValue',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'maxReturn' => [
-        'format' => 'int32',
-    ],
-    'offset' => [
-        'format' => 'int32',
-    ],
-];
+        'maxReturn' => [
+            'format' => 'int32',
+        ],
+        'offset' => [
+            'format' => 'int32',
+        ],
+    ];
 
     public ?int $maxReturn {
         set {

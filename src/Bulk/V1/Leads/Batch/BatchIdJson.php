@@ -16,5 +16,4 @@ final class BatchIdJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Bulk\V1\Leads\Batch\BatchIdJson::class)->get($batchId);
     }
-
 }

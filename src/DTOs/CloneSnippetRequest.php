@@ -7,9 +7,9 @@ namespace MarketoSDK\DTOs;
 final class CloneSnippetRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'folder',
-    'name',
-];
+        'folder',
+        'name',
+    ];
 
     /**
      * Description of the cloned snippet

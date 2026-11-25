@@ -10,19 +10,19 @@ namespace MarketoSDK\DTOs;
 final class InviteUserRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'emailAddress',
-    'firstName',
-    'lastName',
-    'userRoleWorkspaces',
-];
+        'emailAddress',
+        'firstName',
+        'lastName',
+        'userRoleWorkspaces',
+    ];
 
     protected const array VALIDATION = [
-    'emailAddress' => [
-        'minLength' => 1,
-        'maxLength' => 2147483647,
-        'pattern' => '^("?)(?:[^"])(?:[-\\w.!#$%&\\\'*+\\/=?^_`{|}~])*\\1@(\\w[-\\w]{0,62}\\.)+[A-Za-z]{2,63}$',
-    ],
-];
+        'emailAddress' => [
+            'minLength' => 1,
+            'maxLength' => 2147483647,
+            'pattern' => '^("?)(?:[^"])(?:[-\\w.!#$%&\\\'*+\\/=?^_`{|}~])*\\1@(\\w[-\\w]{0,62}\\.)+[A-Za-z]{2,63}$',
+        ],
+    ];
 
     /**
      * Whether the user is API-Only.  Default is false

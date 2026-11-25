@@ -16,5 +16,4 @@ final class CreateJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\V1\Activities\External\Type\ByApiName\Attributes\CreateJson::class)->post($apiName, $payload);
     }
-
 }

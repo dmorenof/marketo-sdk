@@ -7,29 +7,29 @@ namespace MarketoSDK\GetParams\Rest\V1\Leads\ByLeadId;
 final class ProgramMembershipJson extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'batchSize' => 'batchSize',
-        'earliestUpdatedAt' => 'earliestUpdatedAt',
-        'filterType' => 'filterType',
-        'filterValues' => 'filterValues',
-        'latestUpdatedAt' => 'latestUpdatedAt',
-        'nextPageToken' => 'nextPageToken',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'batchSize' => 'batchSize',
+            'earliestUpdatedAt' => 'earliestUpdatedAt',
+            'filterType' => 'filterType',
+            'filterValues' => 'filterValues',
+            'latestUpdatedAt' => 'latestUpdatedAt',
+            'nextPageToken' => 'nextPageToken',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'batchSize' => [
-        'format' => 'int32',
-    ],
-    'filterValues' => [
-        'items' => [
-            'type' => 'string',
-            'rules' => [],
+        'batchSize' => [
+            'format' => 'int32',
         ],
-    ],
-];
+        'filterValues' => [
+            'items' => [
+                'type' => 'string',
+                'rules' => [],
+            ],
+        ],
+    ];
 
     public ?int $batchSize {
         set {

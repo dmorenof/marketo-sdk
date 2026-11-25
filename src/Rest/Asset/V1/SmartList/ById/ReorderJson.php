@@ -16,5 +16,4 @@ final class ReorderJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\Asset\V1\SmartList\ById\ReorderJson::class)->post($id, $payload);
     }
-
 }

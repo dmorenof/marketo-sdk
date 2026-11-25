@@ -7,8 +7,8 @@ namespace MarketoSDK\DTOs\Create\LeadField;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'input',
-];
+        'input',
+    ];
 
     /**
      * List of lead fields for input

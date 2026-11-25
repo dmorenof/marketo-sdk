@@ -23,5 +23,4 @@ final class ApproveJson extends \MarketoSDK\Client
         $result = $this->executeArguments(self::operation(self::POST), path: ['apiName' => $apiName]);
         return $result;
     }
-
 }

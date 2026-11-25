@@ -7,11 +7,11 @@ namespace MarketoSDK\DTOs\Email;
 final class CCFields extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'apiName',
-    'attributeId',
-    'displayName',
-    'objectName',
-];
+        'apiName',
+        'attributeId',
+        'displayName',
+        'objectName',
+    ];
 
     /**
      * API name

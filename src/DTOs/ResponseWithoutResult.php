@@ -7,9 +7,9 @@ namespace MarketoSDK\DTOs;
 final class ResponseWithoutResult extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'requestId',
-    'success',
-];
+        'requestId',
+        'success',
+    ];
 
     /**
      * Array of errors that occurred if the request was unsuccessful

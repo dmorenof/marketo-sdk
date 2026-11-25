@@ -7,9 +7,9 @@ namespace MarketoSDK\Requests\Rest\Asset\V1\SmartList\ById\Rule\RuleIdJson;
 final class Post extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'attributeId',
-    'values',
-];
+        'attributeId',
+        'values',
+    ];
 
     /**
      * JSON representation of the constraint to set, with members 'id' and 'type' which may be 'activity' or 'attribute', for example {"id":16,"type":"activity"}. 'id' is the id of a constraint of the rule type and 'type' is the type of the rule type, both returned by Get Smart List Rules

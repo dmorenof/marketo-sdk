@@ -7,26 +7,26 @@ namespace MarketoSDK\GetParams\Rest\Asset\V1\Folder\ById;
 final class ContentJson extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'maxReturn' => 'maxReturn',
-        'offset' => 'offset',
-        'type' => 'type',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'maxReturn' => 'maxReturn',
+            'offset' => 'offset',
+            'type' => 'type',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'maxReturn' => [
-        'format' => 'int32',
-    ],
-    'offset' => [
-        'format' => 'int32',
-    ],
-];
+        'maxReturn' => [
+            'format' => 'int32',
+        ],
+        'offset' => [
+            'format' => 'int32',
+        ],
+    ];
 
     public ?int $maxReturn {
         set {

@@ -7,9 +7,9 @@ namespace MarketoSDK\DTOs\Sync\ProgramMemberStatus;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'input',
-    'statusName',
-];
+        'input',
+        'statusName',
+    ];
 
     /**
      * List of input records

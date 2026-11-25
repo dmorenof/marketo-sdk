@@ -16,5 +16,4 @@ final class ByNameJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\Asset\V1\Form\ByNameJson::class)->get($params);
     }
-
 }

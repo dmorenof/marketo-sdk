@@ -7,18 +7,18 @@ namespace MarketoSDK\DTOs\Update\EmailDynamicContent;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-    'value',
-];
+        'type',
+        'value',
+    ];
 
     protected const array VALIDATION = [
-    'height' => [
-        'format' => 'int32',
-    ],
-    'width' => [
-        'format' => 'int32',
-    ],
-];
+        'height' => [
+            'format' => 'int32',
+        ],
+        'width' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Sets the value of the alt parameter for the resulting img element

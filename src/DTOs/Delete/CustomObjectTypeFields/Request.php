@@ -7,8 +7,8 @@ namespace MarketoSDK\DTOs\Delete\CustomObjectTypeFields;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'input',
-];
+        'input',
+    ];
 
     /**
      * List of fields to delete from the custom object type

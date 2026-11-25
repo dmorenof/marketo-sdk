@@ -7,15 +7,15 @@ namespace MarketoSDK\DTOs;
 final class CustomObject extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'marketoGUID',
-    'seq',
-];
+        'marketoGUID',
+        'seq',
+    ];
 
     protected const array VALIDATION = [
-    'seq' => [
-        'format' => 'int32',
-    ],
-];
+        'seq' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Unique GUID of the custom object records

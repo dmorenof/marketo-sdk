@@ -7,9 +7,9 @@ namespace MarketoSDK\DTOs;
 final class ActivityTypeAttribute extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'dataType',
-    'name',
-];
+        'dataType',
+        'name',
+    ];
 
     public string $apiName;
     /**

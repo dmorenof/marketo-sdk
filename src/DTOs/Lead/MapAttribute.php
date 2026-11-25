@@ -7,15 +7,15 @@ namespace MarketoSDK\DTOs\Lead;
 final class MapAttribute extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'name',
-];
+        'name',
+    ];
 
     protected const array PROPERTY_MAP = [
-    'readOnly' => 'readOnly_',
-];
+        'readOnly' => 'readOnly_',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'readOnly_' => 'readOnly',
-];
+        'readOnly_' => 'readOnly',
+    ];
 
     /**
      * Name of the attribute

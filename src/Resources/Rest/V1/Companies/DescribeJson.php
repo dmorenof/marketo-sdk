@@ -23,5 +23,4 @@ final class DescribeJson extends \MarketoSDK\Client
         $result = $this->executeOperation(self::operation(self::GET));
         return $result;
     }
-
 }

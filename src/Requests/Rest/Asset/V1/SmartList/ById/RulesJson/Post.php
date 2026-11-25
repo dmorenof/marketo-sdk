@@ -7,15 +7,15 @@ namespace MarketoSDK\Requests\Rest\Asset\V1\SmartList\ById\RulesJson;
 final class Post extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'index',
-    'ruleId',
-];
+        'index',
+        'ruleId',
+    ];
 
     protected const array VALIDATION = [
-    'index' => [
-        'format' => 'int32',
-    ],
-];
+        'index' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * 1-based position to insert the rule

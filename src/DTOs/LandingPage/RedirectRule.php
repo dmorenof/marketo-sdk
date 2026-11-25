@@ -7,15 +7,15 @@ namespace MarketoSDK\DTOs\LandingPage;
 final class RedirectRule extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'createdAt',
-    'hostname',
-    'id',
-    'redirectFrom',
-    'redirectFromUrl',
-    'redirectTo',
-    'redirectToUrl',
-    'updatedAt',
-];
+        'createdAt',
+        'hostname',
+        'id',
+        'redirectFrom',
+        'redirectFromUrl',
+        'redirectTo',
+        'redirectToUrl',
+        'updatedAt',
+    ];
 
     /**
      * Datetime the landing page redirect rule was created

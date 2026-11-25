@@ -7,9 +7,9 @@ namespace MarketoSDK\DTOs;
 final class CloneLpTemplateRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'folder',
-    'name',
-];
+        'folder',
+        'name',
+    ];
 
     /**
      * Description of the landing page template

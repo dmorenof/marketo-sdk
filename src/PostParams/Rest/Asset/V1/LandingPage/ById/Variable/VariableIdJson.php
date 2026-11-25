@@ -7,21 +7,21 @@ namespace MarketoSDK\PostParams\Rest\Asset\V1\LandingPage\ById\Variable;
 final class VariableIdJson extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'value',
-];
+        'value',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'value' => 'value',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'value' => 'value',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'value' => [
-        'format' => 'int32',
-    ],
-];
+        'value' => [
+            'format' => 'int32',
+        ],
+    ];
 
     public int $value {
         set {

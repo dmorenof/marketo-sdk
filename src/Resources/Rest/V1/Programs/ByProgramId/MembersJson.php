@@ -51,5 +51,4 @@ final class MembersJson extends \MarketoSDK\Client
         $result = $this->executeBody(self::operation(self::POST), $payload, path: ['programId' => $programId]);
         return $result;
     }
-
 }

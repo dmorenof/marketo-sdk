@@ -7,19 +7,19 @@ namespace MarketoSDK\DTOs;
 final class ObjectMetaData extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'apiName',
-    'createdAt',
-    'dedupeFields',
-    'description',
-    'displayName',
-    'fields',
-    'idField',
-    'pluralName',
-    'relationships',
-    'searchableFields',
-    'updatedAt',
-    'version',
-];
+        'apiName',
+        'createdAt',
+        'dedupeFields',
+        'description',
+        'displayName',
+        'fields',
+        'idField',
+        'pluralName',
+        'relationships',
+        'searchableFields',
+        'updatedAt',
+        'version',
+    ];
 
     /**
      * Name of the object type

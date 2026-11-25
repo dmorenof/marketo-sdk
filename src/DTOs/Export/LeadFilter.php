@@ -7,13 +7,13 @@ namespace MarketoSDK\DTOs\Export;
 final class LeadFilter extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'smartListId' => [
-        'format' => 'int32',
-    ],
-    'staticListId' => [
-        'format' => 'int32',
-    ],
-];
+        'smartListId' => [
+            'format' => 'int32',
+        ],
+        'staticListId' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Date range to filter new leads on

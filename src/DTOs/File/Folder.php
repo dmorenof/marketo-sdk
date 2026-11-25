@@ -7,10 +7,10 @@ namespace MarketoSDK\DTOs\File;
 final class Folder extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'id' => [
-        'format' => 'int32',
-    ],
-];
+        'id' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Format: int32

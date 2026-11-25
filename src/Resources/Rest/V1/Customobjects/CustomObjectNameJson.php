@@ -57,5 +57,4 @@ final class CustomObjectNameJson extends \MarketoSDK\Client
         $result = $this->executeBody(self::operation(self::POST), $payload, path: ['customObjectName' => $customObjectName]);
         return $result;
     }
-
 }

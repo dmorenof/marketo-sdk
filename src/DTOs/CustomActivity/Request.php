@@ -7,8 +7,8 @@ namespace MarketoSDK\DTOs\CustomActivity;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'input',
-];
+        'input',
+    ];
 
     /**
      * List of custom activities to insert

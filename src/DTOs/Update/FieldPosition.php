@@ -7,19 +7,19 @@ namespace MarketoSDK\DTOs\Update;
 final class FieldPosition extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'columnNumber',
-    'fieldName',
-    'rowNumber',
-];
+        'columnNumber',
+        'fieldName',
+        'rowNumber',
+    ];
 
     protected const array VALIDATION = [
-    'columnNumber' => [
-        'format' => 'int32',
-    ],
-    'rowNumber' => [
-        'format' => 'int32',
-    ],
-];
+        'columnNumber' => [
+            'format' => 'int32',
+        ],
+        'rowNumber' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Column number of the field

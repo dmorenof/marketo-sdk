@@ -7,16 +7,16 @@ namespace MarketoSDK\DTOs\Create\Folder;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'name',
-    'parent_',
-];
+        'name',
+        'parent_',
+    ];
 
     protected const array PROPERTY_MAP = [
-    'parent' => 'parent_',
-];
+        'parent' => 'parent_',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'parent_' => 'parent',
-];
+        'parent_' => 'parent',
+    ];
 
     /**
      * Description of the asset

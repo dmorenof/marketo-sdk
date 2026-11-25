@@ -10,9 +10,9 @@ namespace MarketoSDK\DTOs;
 final class Attribute extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'name',
-    'value',
-];
+        'name',
+        'value',
+    ];
 
     public string $apiName;
     /**

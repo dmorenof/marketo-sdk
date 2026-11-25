@@ -10,26 +10,26 @@ namespace MarketoSDK\DTOs\Import\CustomObject;
 final class Response extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'batchId',
-    'objectApiName',
-    'operation',
-    'status',
-];
+        'batchId',
+        'objectApiName',
+        'operation',
+        'status',
+    ];
 
     protected const array VALIDATION = [
-    'batchId' => [
-        'format' => 'int32',
-    ],
-    'numOfObjectsProcessed' => [
-        'format' => 'int32',
-    ],
-    'numOfRowsFailed' => [
-        'format' => 'int32',
-    ],
-    'numOfRowsWithWarning' => [
-        'format' => 'int32',
-    ],
-];
+        'batchId' => [
+            'format' => 'int32',
+        ],
+        'numOfObjectsProcessed' => [
+            'format' => 'int32',
+        ],
+        'numOfRowsFailed' => [
+            'format' => 'int32',
+        ],
+        'numOfRowsWithWarning' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Unique integer id of the import batch

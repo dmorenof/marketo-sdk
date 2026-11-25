@@ -34,5 +34,4 @@ final class ContentJson extends \MarketoSDK\Client
         $result = func_num_args() > 1 ? $this->executeBody(self::operation(self::POST), $payload, path: ['id' => $id]) : $this->executeArguments(self::operation(self::POST), path: ['id' => $id]);
         return $result;
     }
-
 }

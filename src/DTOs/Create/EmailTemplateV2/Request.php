@@ -12,9 +12,9 @@ namespace MarketoSDK\DTOs\Create\EmailTemplateV2;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'appData',
-    'name',
-];
+        'appData',
+        'name',
+    ];
 
     public \MarketoSDK\DTOs\AppDataDTO $appData;
     public \MarketoSDK\DTOs\DataDTO $data;

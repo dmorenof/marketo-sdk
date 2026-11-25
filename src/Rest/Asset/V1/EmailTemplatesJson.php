@@ -29,5 +29,4 @@ final class EmailTemplatesJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\Asset\V1\EmailTemplatesJson::class)->post($payload);
     }
-
 }

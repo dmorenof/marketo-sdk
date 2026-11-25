@@ -7,8 +7,8 @@ namespace MarketoSDK\Requests\Rest\Asset\V1\SmartList\ById\FilterLogicJson;
 final class Post extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'matchType',
-];
+        'matchType',
+    ];
 
     /**
      * Custom logic expression, for example '1 and (2 or 3)'. Required when matchType is custom

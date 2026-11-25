@@ -19,5 +19,4 @@ final class ScheduleJson extends \MarketoSDK\MarketoEngageRESTAPISDK
         }
         return self::client()->resource(\MarketoSDK\Resources\Rest\V1\Campaigns\ByCampaignId\ScheduleJson::class)->post($campaignId, $payload);
     }
-
 }

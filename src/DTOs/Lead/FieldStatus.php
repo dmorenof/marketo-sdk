@@ -10,9 +10,9 @@ namespace MarketoSDK\DTOs\Lead;
 final class FieldStatus extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'name',
-    'status',
-];
+        'name',
+        'status',
+    ];
 
     /**
      * API name of the field

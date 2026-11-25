@@ -16,5 +16,4 @@ final class FailuresJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Bulk\V1\Program\Members\Import\ByBatchId\FailuresJson::class)->get($batchId);
     }
-
 }

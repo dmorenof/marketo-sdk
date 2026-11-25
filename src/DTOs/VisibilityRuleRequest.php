@@ -7,10 +7,10 @@ namespace MarketoSDK\DTOs;
 final class VisibilityRuleRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'operator',
-    'subjectField',
-    'values',
-];
+        'operator',
+        'subjectField',
+        'values',
+    ];
 
     public string $altLabel;
     /**

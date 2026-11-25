@@ -7,16 +7,16 @@ namespace MarketoSDK\DTOs;
 final class ListDTO extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'createdAt',
-    'listId',
-    'updatedAt',
-];
+        'createdAt',
+        'listId',
+        'updatedAt',
+    ];
 
     protected const array VALIDATION = [
-    'listId' => [
-        'format' => 'int32',
-    ],
-];
+        'listId' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Datetime when the static list was created

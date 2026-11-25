@@ -16,5 +16,4 @@ final class Filter extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\Asset\V2\Fragment\Filter::class)->get($params);
     }
-
 }

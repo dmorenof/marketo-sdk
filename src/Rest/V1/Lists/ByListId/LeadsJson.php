@@ -38,5 +38,4 @@ final class LeadsJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\V1\Lists\ByListId\LeadsJson::class)->post($listId, $params);
     }
-
 }

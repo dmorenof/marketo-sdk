@@ -10,15 +10,15 @@ namespace MarketoSDK\DTOs;
 final class CompanyResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'id',
-    'seq',
-];
+        'id',
+        'seq',
+    ];
 
     protected const array VALIDATION = [
-    'seq' => [
-        'format' => 'int32',
-    ],
-];
+        'seq' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Unique integer id of the company record

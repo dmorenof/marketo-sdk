@@ -16,5 +16,4 @@ final class ImportJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Bulk\V1\Program\ByProgramId\Members\ImportJson::class)->post($programId, $params);
     }
-
 }

@@ -10,25 +10,25 @@ namespace MarketoSDK\DTOs;
 final class ProgramMember extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'acquiredBy',
-    'leadId',
-    'membershipDate',
-    'programId',
-    'reachedSuccess',
-    'seq',
-];
+        'acquiredBy',
+        'leadId',
+        'membershipDate',
+        'programId',
+        'reachedSuccess',
+        'seq',
+    ];
 
     protected const array VALIDATION = [
-    'leadId' => [
-        'format' => 'int32',
-    ],
-    'programId' => [
-        'format' => 'int32',
-    ],
-    'seq' => [
-        'format' => 'int32',
-    ],
-];
+        'leadId' => [
+            'format' => 'int32',
+        ],
+        'programId' => [
+            'format' => 'int32',
+        ],
+        'seq' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Boolean indicating if program member was acquired by program

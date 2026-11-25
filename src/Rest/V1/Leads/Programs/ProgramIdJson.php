@@ -16,5 +16,4 @@ final class ProgramIdJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\V1\Leads\Programs\ProgramIdJson::class)->get($programId, $params);
     }
-
 }

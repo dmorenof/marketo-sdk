@@ -16,5 +16,4 @@ final class AllusersJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Userservice\Management\V1\Users\AllusersJson::class)->get($params);
     }
-
 }

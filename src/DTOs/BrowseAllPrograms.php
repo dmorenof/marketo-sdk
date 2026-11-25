@@ -7,11 +7,11 @@ namespace MarketoSDK\DTOs;
 final class BrowseAllPrograms extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'channel',
-    'folder',
-    'status',
-    'type',
-];
+        'channel',
+        'folder',
+        'status',
+        'type',
+    ];
 
     /**
      * Channel of the program

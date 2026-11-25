@@ -7,24 +7,24 @@ namespace MarketoSDK\DTOs\File;
 final class Response extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'createdAt',
-    'folder',
-    'id',
-    'mimeType',
-    'name',
-    'size',
-    'updatedAt',
-    'url',
-];
+        'createdAt',
+        'folder',
+        'id',
+        'mimeType',
+        'name',
+        'size',
+        'updatedAt',
+        'url',
+    ];
 
     protected const array VALIDATION = [
-    'id' => [
-        'format' => 'int32',
-    ],
-    'size' => [
-        'format' => 'int32',
-    ],
-];
+        'id' => [
+            'format' => 'int32',
+        ],
+        'size' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Datetime when the file was created

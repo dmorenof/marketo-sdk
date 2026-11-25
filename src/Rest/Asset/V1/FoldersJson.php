@@ -27,5 +27,4 @@ final class FoldersJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\Asset\V1\FoldersJson::class)->post($payload);
     }
-
 }

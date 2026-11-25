@@ -7,10 +7,10 @@ namespace MarketoSDK\DTOs\CustomActivity;
 final class Type extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'id' => [
-        'format' => 'int32',
-    ],
-];
+        'id' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * API Name of the type. The API name must be unique and alphanumeric, containing at least one letter. It is highly recommended to prepend a unique namespace of up to sixteen characters to the API name. Required on creation

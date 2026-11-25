@@ -8,6 +8,6 @@ final class TypeIdsCollection extends \Dmorenof\SdkRuntime\TypedArray
 {
     protected string $expected_type = 'integer';
     protected const array ITEM_VALIDATION = [
-    'format' => 'int32',
-];
+        'format' => 'int32',
+    ];
 }

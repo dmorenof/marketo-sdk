@@ -7,33 +7,33 @@ namespace MarketoSDK\DTOs;
 final class FolderResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'createdAt',
-    'folderId',
-    'folderType',
-    'id',
-    'isArchive',
-    'name',
-    'parent_',
-    'path',
-    'updatedAt',
-    'url',
-];
+        'createdAt',
+        'folderId',
+        'folderType',
+        'id',
+        'isArchive',
+        'name',
+        'parent_',
+        'path',
+        'updatedAt',
+        'url',
+    ];
 
     protected const array PROPERTY_MAP = [
-    'parent' => 'parent_',
-];
+        'parent' => 'parent_',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'parent_' => 'parent',
-];
+        'parent_' => 'parent',
+    ];
 
     protected const array VALIDATION = [
-    'accessZoneId' => [
-        'format' => 'int32',
-    ],
-    'id' => [
-        'format' => 'int32',
-    ],
-];
+        'accessZoneId' => [
+            'format' => 'int32',
+        ],
+        'id' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Format: int32

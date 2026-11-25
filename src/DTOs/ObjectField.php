@@ -7,10 +7,10 @@ namespace MarketoSDK\DTOs;
 final class ObjectField extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'length' => [
-        'format' => 'int32',
-    ],
-];
+        'length' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Whether the field is managed by CRM (native sync)

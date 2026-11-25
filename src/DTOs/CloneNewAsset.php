@@ -10,8 +10,8 @@ namespace MarketoSDK\DTOs;
 final class CloneNewAsset extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'name',
-];
+        'name',
+    ];
 
     public string $description;
     public string $name;

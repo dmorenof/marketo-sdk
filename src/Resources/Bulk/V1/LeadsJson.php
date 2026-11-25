@@ -30,5 +30,4 @@ final class LeadsJson extends \MarketoSDK\Client
         $result = $this->executeArguments(self::operation(self::POST), parameters: $params);
         return $result;
     }
-
 }

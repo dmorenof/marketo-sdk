@@ -10,8 +10,8 @@ namespace MarketoSDK\DTOs\Lead;
 final class InputData extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'id',
-];
+        'id',
+    ];
 
     /**
      * Unique integer id of a lead record

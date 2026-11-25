@@ -7,15 +7,15 @@ namespace MarketoSDK\DTOs;
 final class Warning extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'code',
-    'message',
-];
+        'code',
+        'message',
+    ];
 
     protected const array VALIDATION = [
-    'code' => [
-        'format' => 'int32',
-    ],
-];
+        'code' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Integer code of the warning

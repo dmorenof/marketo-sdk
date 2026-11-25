@@ -29,5 +29,4 @@ final class DeleteJson extends \MarketoSDK\Client
         $result = func_num_args() > 1 ? $this->executeBody(self::operation(self::POST), $payload, path: ['customObjectName' => $customObjectName]) : $this->executeArguments(self::operation(self::POST), path: ['customObjectName' => $customObjectName]);
         return $result;
     }
-
 }

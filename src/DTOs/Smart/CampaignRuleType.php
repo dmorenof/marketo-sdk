@@ -7,16 +7,16 @@ namespace MarketoSDK\DTOs\Smart;
 final class CampaignRuleType extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'id',
-    'name',
-    'type',
-];
+        'id',
+        'name',
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'id' => [
-        'format' => 'int32',
-    ],
-];
+        'id' => [
+            'format' => 'int32',
+        ],
+    ];
 
     public \MarketoSDK\Collections\Smart\CampaignFlowStepActionType\ConstraintsCollection $constraints;
     /**

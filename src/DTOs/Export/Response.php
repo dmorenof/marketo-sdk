@@ -10,9 +10,9 @@ namespace MarketoSDK\DTOs\Export;
 final class Response extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'exportId',
-    'status',
-];
+        'exportId',
+        'status',
+    ];
 
     /**
      * Date when the export request was created

@@ -7,40 +7,40 @@ namespace MarketoSDK\GetParams\Rest\V1\Programs\ByProgramId;
 final class MembersJson extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'filterType',
-    'filterValues',
-];
+        'filterType',
+        'filterValues',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'batchSize' => 'batchSize',
-        'endAt' => 'endAt',
-        'fields' => 'fields',
-        'filterType' => 'filterType',
-        'filterValues' => 'filterValues',
-        'nextPageToken' => 'nextPageToken',
-        'startAt' => 'startAt',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'batchSize' => 'batchSize',
+            'endAt' => 'endAt',
+            'fields' => 'fields',
+            'filterType' => 'filterType',
+            'filterValues' => 'filterValues',
+            'nextPageToken' => 'nextPageToken',
+            'startAt' => 'startAt',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'batchSize' => [
-        'format' => 'int32',
-    ],
-    'fields' => [
-        'items' => [
-            'type' => 'string',
-            'rules' => [],
+        'batchSize' => [
+            'format' => 'int32',
         ],
-    ],
-    'filterValues' => [
-        'items' => [
-            'type' => 'string',
-            'rules' => [],
+        'fields' => [
+            'items' => [
+                'type' => 'string',
+                'rules' => [],
+            ],
         ],
-    ],
-];
+        'filterValues' => [
+            'items' => [
+                'type' => 'string',
+                'rules' => [],
+            ],
+        ],
+    ];
 
     public ?int $batchSize {
         set {

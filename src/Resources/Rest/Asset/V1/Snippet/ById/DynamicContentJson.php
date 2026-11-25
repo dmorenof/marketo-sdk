@@ -28,5 +28,4 @@ final class DynamicContentJson extends \MarketoSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), path: ['id' => $id], parameters: $params);
         return $result;
     }
-
 }

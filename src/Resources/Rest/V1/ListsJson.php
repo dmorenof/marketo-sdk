@@ -29,5 +29,4 @@ final class ListsJson extends \MarketoSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), parameters: $params);
         return $result;
     }
-
 }

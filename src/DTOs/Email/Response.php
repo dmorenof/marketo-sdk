@@ -7,29 +7,29 @@ namespace MarketoSDK\DTOs\Email;
 final class Response extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'autoCopyToText',
-    'folder',
-    'fromEmail',
-    'fromName',
-    'operational',
-    'preHeader',
-    'publishToMSI',
-    'replyEmail',
-    'status',
-    'subject',
-    'template',
-    'textOnly',
-    'webView',
-];
+        'autoCopyToText',
+        'folder',
+        'fromEmail',
+        'fromName',
+        'operational',
+        'preHeader',
+        'publishToMSI',
+        'replyEmail',
+        'status',
+        'subject',
+        'template',
+        'textOnly',
+        'webView',
+    ];
 
     protected const array VALIDATION = [
-    'template' => [
-        'format' => 'int32',
-    ],
-    'version' => [
-        'format' => 'int32',
-    ],
-];
+        'template' => [
+            'format' => 'int32',
+        ],
+        'version' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Setting to automatically copy HTML version to Text version

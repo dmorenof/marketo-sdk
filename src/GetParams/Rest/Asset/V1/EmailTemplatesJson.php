@@ -7,23 +7,23 @@ namespace MarketoSDK\GetParams\Rest\Asset\V1;
 final class EmailTemplatesJson extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'maxReturn' => 'maxReturn',
-        'offset' => 'offset',
-        'status' => 'status',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'maxReturn' => 'maxReturn',
+            'offset' => 'offset',
+            'status' => 'status',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'maxReturn' => [
-        'format' => 'int32',
-    ],
-    'offset' => [
-        'format' => 'int32',
-    ],
-];
+        'maxReturn' => [
+            'format' => 'int32',
+        ],
+        'offset' => [
+            'format' => 'int32',
+        ],
+    ];
 
     public ?int $maxReturn {
         set {

@@ -16,5 +16,4 @@ final class InviteJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Userservice\Management\V1\Users\InviteJson::class)->post($payload);
     }
-
 }

@@ -7,25 +7,25 @@ namespace MarketoSDK\GetParams\Rest\Asset\V1;
 final class SmartListsJson extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'earliestUpdatedAt' => 'earliestUpdatedAt',
-        'folder' => 'folder',
-        'latestUpdatedAt' => 'latestUpdatedAt',
-        'maxReturn' => 'maxReturn',
-        'offset' => 'offset',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'earliestUpdatedAt' => 'earliestUpdatedAt',
+            'folder' => 'folder',
+            'latestUpdatedAt' => 'latestUpdatedAt',
+            'maxReturn' => 'maxReturn',
+            'offset' => 'offset',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'maxReturn' => [
-        'format' => 'int32',
-    ],
-    'offset' => [
-        'format' => 'int32',
-    ],
-];
+        'maxReturn' => [
+            'format' => 'int32',
+        ],
+        'offset' => [
+            'format' => 'int32',
+        ],
+    ];
 
     public ?string $earliestUpdatedAt;
     public ?string $folder;

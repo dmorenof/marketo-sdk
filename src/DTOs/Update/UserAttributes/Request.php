@@ -10,12 +10,12 @@ namespace MarketoSDK\DTOs\Update\UserAttributes;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'emailAddress' => [
-        'minLength' => 1,
-        'maxLength' => 2147483647,
-        'pattern' => '^("?)(?:[^"])(?:[-\\w.!#$%&\\\'*+\\/=?^_`{|}~])*\\1@(\\w[-\\w]{0,62}\\.)+[A-Za-z]{2,63}$',
-    ],
-];
+        'emailAddress' => [
+            'minLength' => 1,
+            'maxLength' => 2147483647,
+            'pattern' => '^("?)(?:[^"])(?:[-\\w.!#$%&\\\'*+\\/=?^_`{|}~])*\\1@(\\w[-\\w]{0,62}\\.)+[A-Za-z]{2,63}$',
+        ],
+    ];
 
     /**
      * Whether the user is API-Only.  Default is false

@@ -16,5 +16,4 @@ final class EnqueueJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Bulk\V1\Program\Members\Export\ByExportId\EnqueueJson::class)->post($exportId);
     }
-
 }

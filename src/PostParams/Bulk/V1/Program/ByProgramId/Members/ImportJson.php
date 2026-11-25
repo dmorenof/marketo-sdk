@@ -7,18 +7,18 @@ namespace MarketoSDK\PostParams\Bulk\V1\Program\ByProgramId\Members;
 final class ImportJson extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'format',
-    'programMemberStatus',
-    'body',
-];
+        'format',
+        'programMemberStatus',
+        'body',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'format' => 'format',
-        'programMemberStatus' => 'programMemberStatus',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'format' => 'format',
+            'programMemberStatus' => 'programMemberStatus',
+        ],
+        'header' => [],
+    ];
 
     public const bool OPERATION_BODY = true;
 

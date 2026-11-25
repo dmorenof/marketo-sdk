@@ -7,8 +7,8 @@ namespace MarketoSDK\DTOs;
 final class TokenResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'folder',
-];
+        'folder',
+    ];
 
     /**
      * JSON representation of parent folder, with members 'id', and 'type' which may be 'Folder' or 'Program'

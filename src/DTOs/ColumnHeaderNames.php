@@ -7,9 +7,9 @@ namespace MarketoSDK\DTOs;
 final class ColumnHeaderNames extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'name',
-    'value',
-];
+        'name',
+        'value',
+    ];
 
     /**
      * REST API name for header field

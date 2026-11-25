@@ -27,5 +27,4 @@ final class Fragment extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\Asset\V2\Fragment::class)->getById($id, $params);
     }
-
 }

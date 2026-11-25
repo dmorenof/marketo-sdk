@@ -10,22 +10,22 @@ namespace MarketoSDK\DTOs\ResponseOf;
 final class Workspace extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'currencyInfo',
-    'description',
-    'globalViz',
-    'id',
-    'name',
-    'status',
-];
+        'currencyInfo',
+        'description',
+        'globalViz',
+        'id',
+        'name',
+        'status',
+    ];
 
     protected const array VALIDATION = [
-    'globalViz' => [
-        'format' => 'int32',
-    ],
-    'id' => [
-        'format' => 'int32',
-    ],
-];
+        'globalViz' => [
+            'format' => 'int32',
+        ],
+        'id' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Workspace creation time

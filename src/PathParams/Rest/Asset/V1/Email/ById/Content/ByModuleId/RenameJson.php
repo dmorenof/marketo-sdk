@@ -7,23 +7,23 @@ namespace MarketoSDK\PathParams\Rest\Asset\V1\Email\ById\Content\ByModuleId;
 final class RenameJson extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'id',
-    'moduleId',
-];
+        'id',
+        'moduleId',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [
-        'id' => 'id',
-        'moduleId' => 'moduleId',
-    ],
-    'query' => [],
-    'header' => [],
-];
+        'path' => [
+            'id' => 'id',
+            'moduleId' => 'moduleId',
+        ],
+        'query' => [],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'id' => [
-        'format' => 'int32',
-    ],
-];
+        'id' => [
+            'format' => 'int32',
+        ],
+    ];
 
     public int $id {
         set {

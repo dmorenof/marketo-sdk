@@ -28,5 +28,4 @@ final class IdJson extends \MarketoSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), path: ['id' => $id]);
         return $result;
     }
-
 }

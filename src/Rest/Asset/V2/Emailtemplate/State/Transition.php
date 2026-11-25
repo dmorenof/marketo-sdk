@@ -16,5 +16,4 @@ final class Transition extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\Asset\V2\Emailtemplate\State\Transition::class)->post($params);
     }
-
 }

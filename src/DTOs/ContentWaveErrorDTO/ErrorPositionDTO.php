@@ -10,13 +10,13 @@ namespace MarketoSDK\DTOs\ContentWaveErrorDTO;
 final class ErrorPositionDTO extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'column' => [
-        'format' => 'int32',
-    ],
-    'line' => [
-        'format' => 'int32',
-    ],
-];
+        'column' => [
+            'format' => 'int32',
+        ],
+        'line' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Format: int32

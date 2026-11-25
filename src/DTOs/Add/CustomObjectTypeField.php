@@ -7,10 +7,10 @@ namespace MarketoSDK\DTOs\Add;
 final class CustomObjectTypeField extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'dataType',
-    'displayName',
-    'name',
-];
+        'dataType',
+        'displayName',
+        'name',
+    ];
 
     /**
      * Datatype of the custom object field

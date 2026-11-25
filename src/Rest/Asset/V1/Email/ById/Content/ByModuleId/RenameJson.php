@@ -16,5 +16,4 @@ final class RenameJson extends \MarketoSDK\MarketoEngageRESTAPISDK
     {
         return self::client()->resource(\MarketoSDK\Resources\Rest\Asset\V1\Email\ById\Content\ByModuleId\RenameJson::class)->post($identifier, $params);
     }
-
 }
