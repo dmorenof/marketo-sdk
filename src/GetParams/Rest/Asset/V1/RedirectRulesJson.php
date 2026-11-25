@@ -1,0 +1,47 @@
+<?php
+
+declare(strict_types=1);
+
+namespace MarketoSDK\GetParams\Rest\Asset\V1;
+
+final class RedirectRulesJson extends \Dmorenof\SdkRuntime\DTO
+{
+    public const array OPERATION_FIELDS = [
+    'path' => [],
+    'query' => [
+        'earliestUpdatedAt' => 'earliestUpdatedAt',
+        'latestUpdatedAt' => 'latestUpdatedAt',
+        'maxReturn' => 'maxReturn',
+        'offset' => 'offset',
+        'redirectToPath' => 'redirectToPath',
+        'redirectTolandingPageId' => 'redirectTolandingPageId',
+    ],
+    'header' => [],
+];
+
+    protected const array VALIDATION = [
+    'maxReturn' => [
+        'format' => 'int32',
+    ],
+    'offset' => [
+        'format' => 'int32',
+    ],
+];
+
+    public ?string $earliestUpdatedAt;
+    public ?string $latestUpdatedAt;
+    public ?int $maxReturn {
+        set {
+            $this->assigning('maxReturn', $value);
+            $this->maxReturn = $value;
+        }
+    }
+    public ?int $offset {
+        set {
+            $this->assigning('offset', $value);
+            $this->offset = $value;
+        }
+    }
+    public ?string $redirectToPath;
+    public ?string $redirectTolandingPageId;
+}

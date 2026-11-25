@@ -1,0 +1,25 @@
+<?php
+
+declare(strict_types=1);
+
+namespace MarketoSDK\DTOs\Add\CustomObjectTypeFields;
+
+final class Request extends \Dmorenof\SdkRuntime\DTO
+{
+    public const array REQUIRED_FIELDS = [
+    'input',
+];
+
+    /**
+     * List of fields to add to custom object type
+     */
+    public \MarketoSDK\Collections\Add\CustomObjectTypeFields\Request\InputCollection $input;
+
+    protected function assignMember(string $name, mixed $value): void
+    {
+        match ($name) {
+            'input' => is_array($value) && array_is_list($value) && array_all($value, static fn (mixed $item): bool => $item instanceof \stdClass) ? $this->input = new \MarketoSDK\Collections\Add\CustomObjectTypeFields\Request\InputCollection(\Dmorenof\SdkRuntime\Hydrator::models($value, \MarketoSDK\DTOs\Add\CustomObjectTypeField::class)) : parent::assignMember($name, $value),
+            default => parent::assignMember($name, $value),
+        };
+    }
+}

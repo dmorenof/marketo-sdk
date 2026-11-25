@@ -1,0 +1,34 @@
+<?php
+
+declare(strict_types=1);
+
+namespace MarketoSDK\GetParams\Rest\V1\Activities;
+
+final class DeletedleadsJson extends \Dmorenof\SdkRuntime\DTO
+{
+    public const array REQUIRED_FIELDS = [
+    'nextPageToken',
+];
+    public const array OPERATION_FIELDS = [
+    'path' => [],
+    'query' => [
+        'batchSize' => 'batchSize',
+        'nextPageToken' => 'nextPageToken',
+    ],
+    'header' => [],
+];
+
+    protected const array VALIDATION = [
+    'batchSize' => [
+        'format' => 'int32',
+    ],
+];
+
+    public ?int $batchSize {
+        set {
+            $this->assigning('batchSize', $value);
+            $this->batchSize = $value;
+        }
+    }
+    public string $nextPageToken;
+}
