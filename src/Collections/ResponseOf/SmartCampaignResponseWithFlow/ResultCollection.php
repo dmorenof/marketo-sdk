@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace MarketoSDK\Collections\ResponseOf\SmartCampaignResponseWithFlow;
 
+/** @extends \Dmorenof\SdkRuntime\TypedArray<\MarketoSDK\DTOs\Smart\CampaignResponseWithFlow> */
 final class ResultCollection extends \Dmorenof\SdkRuntime\TypedArray
 {
     protected string $expected_type = \MarketoSDK\DTOs\Smart\CampaignResponseWithFlow::class;
