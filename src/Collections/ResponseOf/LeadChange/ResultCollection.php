@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace MarketoSDK\Collections\ResponseOf\LeadChange;
 
+/** @extends \Dmorenof\SdkRuntime\TypedArray<\MarketoSDK\DTOs\Lead\Change> */
 final class ResultCollection extends \Dmorenof\SdkRuntime\TypedArray
 {
     protected string $expected_type = \MarketoSDK\DTOs\Lead\Change::class;

@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace MarketoSDK\Collections\Update\ThankYouPage\Request;
 
+/** @extends \Dmorenof\SdkRuntime\TypedArray<\MarketoSDK\DTOs\ThankYouPageRequest> */
 final class ThankyouCollection extends \Dmorenof\SdkRuntime\TypedArray
 {
     protected string $expected_type = \MarketoSDK\DTOs\ThankYouPageRequest::class;

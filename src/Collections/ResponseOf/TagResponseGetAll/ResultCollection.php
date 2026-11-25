@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace MarketoSDK\Collections\ResponseOf\TagResponseGetAll;
 
+/** @extends \Dmorenof\SdkRuntime\TypedArray<\MarketoSDK\DTOs\Tag\ResponseGetAll> */
 final class ResultCollection extends \Dmorenof\SdkRuntime\TypedArray
 {
     protected string $expected_type = \MarketoSDK\DTOs\Tag\ResponseGetAll::class;
